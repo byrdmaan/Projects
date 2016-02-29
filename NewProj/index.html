@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Daniel J. Peck</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <script src="js/jquery-2.2.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['Intro', 'Portfolio', 'Resume'],
+				sectionsColor: ['#c5d5cb', '#9fa8a3', '#e3e0cf']
+			});
+		});
+	</script>
+  </head>
+
+
+
+<body>
+<div class="all">
+<div class="menu">
+	<a href="#Intro">Intro</a>
+	<a href="#Portfolio">About</a>
+	<a href="#Portfolio/1">Data Work</a>
+	<a href="#Portfolio/2">Design Work</a>
+	<a href="#Resume">Resume & Contact</a>
+</div>
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="intro">
+			<h1>Daniel Peck</h1>
+			<p>I am pretty good at coding</p>
+		</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Developer & Designer</h1>
+				<p>
+					<q>We designers have been working to stimulate people's souls and minds.</q> — Naoto Fukasawa
+				</p>
+			</div>
+		</div>
+	    <div class="slide" id="slide2">
+			<div class="intro">
+				<h1>Data Projects</h1>
+				<p>
+					I have done data stuff
+				</p>
+			</div>
+		</div>
+
+	    <div class="slide" id="slide3">
+			<h1>Design Projects</h1>
+			<p>
+				I have done design stuff
+			</p>
+		</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1><a href="img/Daniel Peck Resume.pdf" target="_blank">
+				Resume & Contact
+			</a></h1>
+			<p>
+				Contact me for work
+			</p>
+		</div>
+		<div class="footer" id="footer">
+			Designed by Daniel Peck &emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp; Daniel.Jerome.Peck@gmail.com
+		</div>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+ </div>
+ </body>
+ </html>
