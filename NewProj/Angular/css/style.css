@@ -6,7 +6,7 @@ html{
 }
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 	margin:0;
 	padding:0;
   color: #f0eceb;
@@ -30,6 +30,15 @@ body{
 
 .title {
   font-size: 80px;
+}
+
+.drinks {
+  width:100%;
+  border: 3px;
+  text-align: center;
+  table-layout: fixed;
+  border-color: #f0eceb;
+  border-style: solid;
 }
 
 .top {

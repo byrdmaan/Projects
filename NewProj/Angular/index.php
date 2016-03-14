@@ -39,12 +39,18 @@ Welcome to Quench
 <div class="bottom" ng-controller="MainController">
 <div class="testDrink">
 <p class="title">{{ Title }}</p>
-<div class="drink" ng-repeat="drink in drinks">
-	<p class="name">{{ drink.name }}</p>
-	<p class="price">{{ drink.price | currency}}</p>
-	<p class="venue">{{ drink.venue }}</p>
-	<br>
-</div>
+<table class= "drinks" border="1">
+<tr>
+	<th>name</th>
+	<th>price</th>
+	<th>venue</th>
+</tr>
+<tr ng-repeat="drink in drinks">
+	<td class="name">{{ drink.name }}</td>
+	<td class="price">{{ drink.price | currency}}</td>
+	<td class="venue">{{ drink.venue }}</td>
+</tr>
+</table>
 </div>
 
 </div>
