@@ -20,6 +20,11 @@
 			$('#fullpage').fullpage({
 				resize: true,
 				responsiveWidth: 900,
+				controlArrows: false,
+				navigation: true,
+        		navigationPosition: 'right',
+        		slidesNavigation: true,
+        		slidesNavPosition: 'top',
 				anchors: ['Intro', 'Portfolio', 'Portfolio2', 'Resume'],
 				sectionsColor: ['#adccb8', '#667c67', '#9fa8a3', '#717f89']
 			});
@@ -34,17 +39,17 @@
 
 <div class="all">
 <div class="menu">
-	<a href="#Intro">Intro</a>
-	<a href="#Portfolio">Design Projects</a>
-	<a href="#Portfolio2">Data Projects</a>
-	<a href="#Resume">Resume & Contact</a>
+	<a id="link" href="#Intro">Intro</a>
+	<a id="link" href="#Portfolio">Design Projects</a>
+	<a id="link" href="#Portfolio2">Data Projects</a>
+	<a id="link" href="#Resume">Resume & Contact</a>
 </div>
 
 
 <div id="fullpage">
 	<div class="section " id="section0">
 		<div class="intro">
-			<h1 id="name"><a>Daniel Peck</a></h1>
+			<h1 id="name"><a id="link">Daniel Peck</a></h1>
 			<p id="demo">Welcome</p>
 		</div>
 	</div>
@@ -61,7 +66,7 @@
 	    <div class="slide" id="slide2">
 			<div class="caseStudy">
 				<h1>Case Study #1</h1>
-				<h3>Voter Apathy</h3>
+				<h3>Voter Turnout</h3>
 				<div class="cscontent">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor, turpis sit amet iaculis eleifend, sapien lectus dictum ipsum, vel facilisis urna justo sit amet nulla. Suspendisse volutpat risus non nunc faucibus, eget ornare massa blandit. Cras efficitur dui est, ut rutrum elit faucibus et. Nunc ullamcorper nibh nulla, eu tempor eros malesuada non. Ut sit amet rutrum odio. Donec sit amet orci a tortor pretium malesuada eu at nisi. Quisque interdum lorem eget ligula varius pretium. Suspendisse potenti. Proin non tellus tristique, laoreet massa ut, euismod nulla. Nam eros enim, commodo at pellentesque eget, faucibus vel purus. Cras rutrum lorem ac magna congue, at convallis nisl hendrerit. Vestibulum commodo tempus sapien, eu laoreet orci venenatis quis.</p>
 
@@ -74,9 +79,9 @@
 	</div>
 	<div class="section" id="section2">
 	    <div class="slide" id="slide1">
-			<h1><a href="">Data Projects</a></h1>
+			<h1>Data Projects</h1>
 			<p>
-				I have done data stuff
+				<q>Data that is loved tends to survive.</q> – Kurt Bollacker
 			</p>
 		</div>
 		<div class="slide" id="slide2">
@@ -96,7 +101,7 @@
 
 	<div class="section" id="section3">
 		<div class="intro">
-			<h1><a href="img/Daniel Peck Resume.pdf" target="_blank">
+			<h1><a id="link" href="img/Daniel Peck Resume.pdf" target="_blank">
 				Resume & Contact
 			</a></h1>
 			<p>

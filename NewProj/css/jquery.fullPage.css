@@ -104,16 +104,17 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
 }
 #fp-nav.right {
-    right: 17px;
+    right: 18px;
 }
 #fp-nav.left {
-    left: 17px;
+    left: 18px;
 }
 .fp-slidesNav{
     position: absolute;
     z-index: 4;
     left: 50%;
     opacity: 1;
+    padding-top: 80px;
 }
 .fp-slidesNav.bottom {
     bottom: 17px;
