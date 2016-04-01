@@ -16,10 +16,20 @@ body{
 	clear: both;
 	padding-left:30px;
 	padding-right: 30px;
+}
 
+
+.caseStudy {
 
 }
 
+.cscontent {
+	font-family: 'Roboto';
+	padding-left:60px;
+	padding-right:60px;
+	padding-bottom: 30px;
+	text-align: justify;
+}
 .menu{
 	position:fixed;
 	z-index: 10;
@@ -68,7 +78,9 @@ a:active {
 #section0,
 #section1,
 #section2,
-#section3{
+#section3,
+#section4,
+#section5{
 	background-size: cover;
 	background-attachment: fixed;
 }

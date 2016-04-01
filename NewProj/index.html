@@ -5,6 +5,8 @@
     <title>Daniel J. Peck</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <script src="js/jquery-2.2.1.min.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
 
@@ -16,11 +18,14 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['Intro', 'Portfolio', 'Resume'],
-				sectionsColor: ['#c5d5cb', '#9fa8a3', '#e3e0cf']
+				resize: true,
+				responsiveWidth: 900,
+				anchors: ['Intro', 'Portfolio', 'Portfolio2', 'Resume'],
+				sectionsColor: ['#adccb8', '#667c67', '#9fa8a3', '#717f89']
 			});
 		});
 	</script>
+	
   </head>
 
 
@@ -30,9 +35,8 @@
 <div class="all">
 <div class="menu">
 	<a href="#Intro">Intro</a>
-	<a href="#Portfolio">About</a>
-	<a href="#Portfolio/1">Data Work</a>
-	<a href="#Portfolio/2">Design Work</a>
+	<a href="#Portfolio">Design Projects</a>
+	<a href="#Portfolio2">Data Projects</a>
 	<a href="#Resume">Resume & Contact</a>
 </div>
 
@@ -40,38 +44,57 @@
 <div id="fullpage">
 	<div class="section " id="section0">
 		<div class="intro">
-			<h1>Daniel Peck</h1>
-			<p>I am pretty good at coding</p>
+			<h1 id="name"><a>Daniel Peck</a></h1>
+			<p id="demo">Welcome</p>
 		</div>
 	</div>
 
-	<div class="section" id="section2">
+	<div class="section" id="section1">
 		<div class="slide" id="slide1">
 			<div class="intro">
-				<h1>Developer & Designer</h1>
+				<h1>Design Projects</h1>
 				<p>
 					<q>We designers have been working to stimulate people's souls and minds.</q> — Naoto Fukasawa
 				</p>
 			</div>
 		</div>
 	    <div class="slide" id="slide2">
-			<div class="intro">
-				<h1>Data Projects</h1>
-				<p>
-					I have done data stuff
-				</p>
+			<div class="caseStudy">
+				<h1>Case Study #1</h1>
+				<h3>Voter Apathy</h3>
+				<div class="cscontent">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor, turpis sit amet iaculis eleifend, sapien lectus dictum ipsum, vel facilisis urna justo sit amet nulla. Suspendisse volutpat risus non nunc faucibus, eget ornare massa blandit. Cras efficitur dui est, ut rutrum elit faucibus et. Nunc ullamcorper nibh nulla, eu tempor eros malesuada non. Ut sit amet rutrum odio. Donec sit amet orci a tortor pretium malesuada eu at nisi. Quisque interdum lorem eget ligula varius pretium. Suspendisse potenti. Proin non tellus tristique, laoreet massa ut, euismod nulla. Nam eros enim, commodo at pellentesque eget, faucibus vel purus. Cras rutrum lorem ac magna congue, at convallis nisl hendrerit. Vestibulum commodo tempus sapien, eu laoreet orci venenatis quis.</p>
+
+					<p>Curabitur dui nisl, convallis vitae tristique vitae, congue a libero. Sed sapien ligula, fermentum sed ultricies sed, placerat et massa. Aliquam dictum varius feugiat. Cras eu bibendum erat. Pellentesque in tortor in lectus dictum ultrices sed at lacus. Nam massa sem, porttitor condimentum aliquam eu, condimentum eget diam. Proin ac mattis nisi.</p>
+
+					<p>Mauris viverra vulputate faucibus. Nullam mollis interdum semper. Cras finibus dapibus metus vel imperdiet. Nulla augue diam, semper in rutrum non, cursus non est. Morbi finibus massa sed erat scelerisque, a congue purus efficitur. Aliquam finibus quis eros vel ornare. Vestibulum lobortis ornare risus at ultrices. Praesent risus purus, tincidunt sit amet arcu et, accumsan aliquam nunc. Nunc vel egestas mi. Proin luctus, mi at porta commodo, tellus nunc ullamcorper orci, at dapibus lectus nulla pulvinar mauris. In nec lacus porttitor, sagittis lorem nec, eleifend diam. Maecenas in fringilla nulla, a imperdiet risus. Fusce vitae metus euismod, posuere nisl ut, convallis nibh. Aliquam vitae arcu magna.</p>
+				</div>
 			</div>
 		</div>
-
-	    <div class="slide" id="slide3">
-			<h1>Design Projects</h1>
+	</div>
+	<div class="section" id="section2">
+	    <div class="slide" id="slide1">
+			<h1><a href="">Data Projects</a></h1>
 			<p>
-				I have done design stuff
+				I have done data stuff
 			</p>
+		</div>
+		<div class="slide" id="slide2">
+			<div class="caseStudy">
+				<h1>Case Study #2</h1>
+				<h3>Dallas Crime</h3>
+				<div class="cscontent">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor, turpis sit amet iaculis eleifend, sapien lectus dictum ipsum, vel facilisis urna justo sit amet nulla. Suspendisse volutpat risus non nunc faucibus, eget ornare massa blandit. Cras efficitur dui est, ut rutrum elit faucibus et. Nunc ullamcorper nibh nulla, eu tempor eros malesuada non. Ut sit amet rutrum odio. Donec sit amet orci a tortor pretium malesuada eu at nisi. Quisque interdum lorem eget ligula varius pretium. Suspendisse potenti. Proin non tellus tristique, laoreet massa ut, euismod nulla. Nam eros enim, commodo at pellentesque eget, faucibus vel purus. Cras rutrum lorem ac magna congue, at convallis nisl hendrerit. Vestibulum commodo tempus sapien, eu laoreet orci venenatis quis.</p>
+
+					<p>Curabitur dui nisl, convallis vitae tristique vitae, congue a libero. Sed sapien ligula, fermentum sed ultricies sed, placerat et massa. Aliquam dictum varius feugiat. Cras eu bibendum erat. Pellentesque in tortor in lectus dictum ultrices sed at lacus. Nam massa sem, porttitor condimentum aliquam eu, condimentum eget diam. Proin ac mattis nisi.</p>
+
+					<p>Mauris viverra vulputate faucibus. Nullam mollis interdum semper. Cras finibus dapibus metus vel imperdiet. Nulla augue diam, semper in rutrum non, cursus non est. Morbi finibus massa sed erat scelerisque, a congue purus efficitur. Aliquam finibus quis eros vel ornare. Vestibulum lobortis ornare risus at ultrices. Praesent risus purus, tincidunt sit amet arcu et, accumsan aliquam nunc. Nunc vel egestas mi. Proin luctus, mi at porta commodo, tellus nunc ullamcorper orci, at dapibus lectus nulla pulvinar mauris. In nec lacus porttitor, sagittis lorem nec, eleifend diam. Maecenas in fringilla nulla, a imperdiet risus. Fusce vitae metus euismod, posuere nisl ut, convallis nibh. Aliquam vitae arcu magna.</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="section" id="section2">
+	<div class="section" id="section3">
 		<div class="intro">
 			<h1><a href="img/Daniel Peck Resume.pdf" target="_blank">
 				Resume & Contact
@@ -96,5 +119,28 @@
 
 
  </div>
+
+
+
+<script>
+	var skills = ["I am pretty good at coding", "Nothing warms a heart like a sea shanty", "My favorite book is Moby Dick", "I love a tasteful meat & cheese spread", "Japanese is a great language"];
+	var i = 4;
+	document.getElementById("name").addEventListener("click", myFunction);
+
+	function myFunction() {
+		if (i<4) {
+		document.getElementById("demo").innerHTML = skills[i+1];
+		i = i + 1;
+		}
+		else
+		{
+			document.getElementById("demo").innerHTML = skills[0];
+			i = 0;
+		}
+}
+</script>
+
+
+
  </body>
  </html>
