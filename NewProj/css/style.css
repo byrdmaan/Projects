@@ -43,7 +43,7 @@ body{
 	padding-right:120px;
 	padding-bottom: 30px;
 	text-align: justify;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .menu{
@@ -83,6 +83,8 @@ body{
 #pic{
 	float:left;
 	padding-right: 30px;
+	height: 400px;
+	width: auto;
 }
 
 .intro {
@@ -164,8 +166,8 @@ h3 {
 
 #pic{
 	float:left;
-	height: 40%;
-	width: 40%;
+	height: 200px;
+	width: auto;
 	padding-right: 15px;
 }
 
