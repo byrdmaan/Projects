@@ -245,3 +245,11 @@ h3 {
 
 
 }
+
+
+@media all and (max-width: 300px){
+
+.cscontent{
+	font-size: 7px;
+}
+
