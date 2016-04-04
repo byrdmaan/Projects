@@ -87,6 +87,20 @@ body{
 	width: auto;
 }
 
+#pic3{
+	float:left;
+	padding-right: 30px;
+	height: 300px;
+	width: auto;
+}
+
+#pic2{
+	float:right;
+	padding-left: 30px;
+	height:300px;
+	width: auto;
+}
+
 .intro {
 	padding-left: 120px;
 	padding-right: 120px;
