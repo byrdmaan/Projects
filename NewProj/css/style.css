@@ -166,7 +166,7 @@ p {
 .cscontent {
 	padding-right: 30px;
 	padding-left: 30px;
-	font-size: 9px;
+	font-size: 8px;
 }
 
 .name {
@@ -188,6 +188,25 @@ h3 {
 	height: 200px;
 	width: auto;
 	padding-right: 15px;
+}
+
+#pic2{
+	float:right;
+	height: 180px;
+	width: auto;
+	padding-left: 15px;
+}
+
+#pic3{
+	float:left;
+	height: 180px;
+	width: auto;
+	padding-right: 15px;
+}
+
+#pic4{
+	height: 200px;
+	width: auto;
 }
 
 .fp-controlArrow {
