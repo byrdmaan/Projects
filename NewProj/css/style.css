@@ -166,7 +166,7 @@ p {
 .cscontent {
 	padding-right: 30px;
 	padding-left: 30px;
-	font-size: 8px;
+	font-size: 7px;
 }
 
 .name {
@@ -245,11 +245,3 @@ h3 {
 
 
 }
-
-
-@media all and (max-width: 300px){
-
-.cscontent{
-	font-size: 7px;
-}
-
