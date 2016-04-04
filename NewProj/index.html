@@ -1,9 +1,18 @@
 <!doctype html>
 <html lang="en">
  <head>
- 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 	<meta name="viewport" content="width=device-width">
+ 	<meta http-equiv="Content-Type" content="text/html" charset='utf-8' />
     <title>Daniel J. Peck</title>
+
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
+  	
+    <!--
+  	<link rel="stylesheet" id="size-stylesheet" type="text/css" href="css/small.css">
+  	<link rel="stylesheet" id="size-stylesheet" type="text/css" href="css/big.css"> -->
+
+
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -16,15 +25,17 @@
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="examples.js"></script>
 
+	<!-- <script type="text/javascript" src="js/resTest.js"></script> -->
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				resize: true,
+				resize: false,
 				responsiveWidth: 900,
-				controlArrows: false,
+				controlArrows: true,
 				navigation: true,
         		navigationPosition: 'right',
-        		slidesNavigation: true,
+        		slidesNavigation: false,
         		slidesNavPosition: 'top',
 				anchors: ['Intro', 'Portfolio', 'Portfolio2', 'Resume'],
 				sectionsColor: ['#adccb8', '#667c67', '#9fa8a3', '#717f89']
@@ -38,19 +49,20 @@
 
 <body>
 
-<div class="all">
-<div class="menu">
-	<a id="link" href="#Intro">Intro</a>
-	<a id="link" href="#Portfolio/1">Design Projects</a>
-	<a id="link" href="#Portfolio2/1">Data Projects</a>
-	<a id="link" href="#Resume">Resume & Contact</a>
-</div>
 
 
+
+<div class="everything">
+<div class="menu"><a id="link" href="#Intro">Intro</a>
+		<a id="link" href="#Portfolio/1">Design Projects</a>
+		<a id="link" href="#Portfolio2/1">Data Projects</a>
+		<a id="link" href="#Resume">Resume & Contact</a></div>
 <div id="fullpage">
 	<div class="section " id="section0">
 		<div class="intro">
-			<h1 id="name"><a id="link">Daniel Peck</a></h1>
+			<div class="M">
+				<h1 id="name"><a id="link">Daniel Peck</a></h1>
+			</div>
 			<p id="demo">Welcome</p>
 		</div>
 	</div>
@@ -58,7 +70,9 @@
 	<div class="section" id="section1">
 		<div class="slide" id="slide1">
 			<div class="intro">
-				<h1>Design Projects</h1>
+				<div class="M">
+					<h1>Design Projects</h1>
+				</div>
 				<p>
 					<q>We designers have been working to stimulate people's souls and minds.</q> — Naoto Fukasawa
 				</p>
@@ -66,35 +80,39 @@
 		</div>
 	    <div class="slide" id="slide2">
 			<div class="caseStudy">
-				<h1>Case Study #1</h1>
-				<h3>Voter Turnout</h3>
+				<div class="M">
+					<h1>Case Study #1</h1>
+				</div>
+				<h3>Voter Turnout Among College Students</h3>
 				<div class="cscontent">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor, turpis sit amet iaculis eleifend, sapien lectus dictum ipsum, vel facilisis urna justo sit amet nulla. Suspendisse volutpat risus non nunc faucibus, eget ornare massa blandit. Cras efficitur dui est, ut rutrum elit faucibus et. Nunc ullamcorper nibh nulla, eu tempor eros malesuada non. Ut sit amet rutrum odio. Donec sit amet orci a tortor pretium malesuada eu at nisi. Quisque interdum lorem eget ligula varius pretium. Suspendisse potenti. Proin non tellus tristique, laoreet massa ut, euismod nulla. Nam eros enim, commodo at pellentesque eget, faucibus vel purus. Cras rutrum lorem ac magna congue, at convallis nisl hendrerit. Vestibulum commodo tempus sapien, eu laoreet orci venenatis quis.</p>
+					<img src="img/D2.png" id="pic" alt="Daniel">
+					<p><b>What We Did:</b> I and another group of student researchers were tasked with identifying the causes of voter apathy and increasing voter turnout among college students.  Starting from the question “How might we increase voter engagement and participation among students?” our team created a research plan of personal interview consisting of a cognitive walkthrough of the voting process, a love/break-up letter to the electoral system, and a reflective questionnaire.  We also did an expert interview with a local city council member and a graffiti wall in various parts of Southern Methodist University campus.</p>
+					<p>After collecting the data we did a group synthesis coming to two key conclusions: voting is heavily tied to familial relationships, and most students are vastly undereducated about the out of city voting process.  These conclusions helped us plan a prototype of a voter education system that could be implemented in schools using the BookIt! program as a model and planning for a partnership with participatory food chains.</p>
 
-					<p>Curabitur dui nisl, convallis vitae tristique vitae, congue a libero. Sed sapien ligula, fermentum sed ultricies sed, placerat et massa. Aliquam dictum varius feugiat. Cras eu bibendum erat. Pellentesque in tortor in lectus dictum ultrices sed at lacus. Nam massa sem, porttitor condimentum aliquam eu, condimentum eget diam. Proin ac mattis nisi.</p>
-
-					<p>Mauris viverra vulputate faucibus. Nullam mollis interdum semper. Cras finibus dapibus metus vel imperdiet. Nulla augue diam, semper in rutrum non, cursus non est. Morbi finibus massa sed erat scelerisque, a congue purus efficitur. Aliquam finibus quis eros vel ornare. Vestibulum lobortis ornare risus at ultrices. Praesent risus purus, tincidunt sit amet arcu et, accumsan aliquam nunc. Nunc vel egestas mi. Proin luctus, mi at porta commodo, tellus nunc ullamcorper orci, at dapibus lectus nulla pulvinar mauris. In nec lacus porttitor, sagittis lorem nec, eleifend diam. Maecenas in fringilla nulla, a imperdiet risus. Fusce vitae metus euismod, posuere nisl ut, convallis nibh. Aliquam vitae arcu magna.</p>
+					<p><b>Ask Me About:</b> The Pizza Party</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="section" id="section2">
 	    <div class="slide" id="slide1">
-			<h1>Data Projects</h1>
+			<div class="M">
+				<h1>Data Projects</h1>
+			</div>
 			<p>
 				<q>Data that is loved tends to survive.</q> – Kurt Bollacker
 			</p>
 		</div>
 		<div class="slide" id="slide2">
 			<div class="caseStudy">
-				<h1>Case Study #2</h1>
+				<div class="M">
+					<h1>Case Study #2</h1>
+				</div>
 				<h3>Dallas Crime</h3>
 				<div class="cscontent">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor, turpis sit amet iaculis eleifend, sapien lectus dictum ipsum, vel facilisis urna justo sit amet nulla. Suspendisse volutpat risus non nunc faucibus, eget ornare massa blandit. Cras efficitur dui est, ut rutrum elit faucibus et. Nunc ullamcorper nibh nulla, eu tempor eros malesuada non. Ut sit amet rutrum odio. Donec sit amet orci a tortor pretium malesuada eu at nisi. Quisque interdum lorem eget ligula varius pretium. Suspendisse potenti. Proin non tellus tristique, laoreet massa ut, euismod nulla. Nam eros enim, commodo at pellentesque eget, faucibus vel purus. Cras rutrum lorem ac magna congue, at convallis nisl hendrerit. Vestibulum commodo tempus sapien, eu laoreet orci venenatis quis.</p>
 
 					<p>Curabitur dui nisl, convallis vitae tristique vitae, congue a libero. Sed sapien ligula, fermentum sed ultricies sed, placerat et massa. Aliquam dictum varius feugiat. Cras eu bibendum erat. Pellentesque in tortor in lectus dictum ultrices sed at lacus. Nam massa sem, porttitor condimentum aliquam eu, condimentum eget diam. Proin ac mattis nisi.</p>
-
-					<p>Mauris viverra vulputate faucibus. Nullam mollis interdum semper. Cras finibus dapibus metus vel imperdiet. Nulla augue diam, semper in rutrum non, cursus non est. Morbi finibus massa sed erat scelerisque, a congue purus efficitur. Aliquam finibus quis eros vel ornare. Vestibulum lobortis ornare risus at ultrices. Praesent risus purus, tincidunt sit amet arcu et, accumsan aliquam nunc. Nunc vel egestas mi. Proin luctus, mi at porta commodo, tellus nunc ullamcorper orci, at dapibus lectus nulla pulvinar mauris. In nec lacus porttitor, sagittis lorem nec, eleifend diam. Maecenas in fringilla nulla, a imperdiet risus. Fusce vitae metus euismod, posuere nisl ut, convallis nibh. Aliquam vitae arcu magna.</p>
 				</div>
 			</div>
 		</div>
@@ -102,16 +120,15 @@
 
 	<div class="section" id="section3">
 		<div class="intro">
-			<h1><a id="link" href="img/Daniel Peck Resume.pdf" target="_blank">
+			<div class="M"><h1><a id="link" href="img/Daniel Peck Resume.pdf" target="_blank">
 				Resume & Contact
-			</a></h1>
+			</a></h1></div>
 			<p>
 				Contact me for work
 			</p>
 		</div>
 		<div class="footer" id="footer">
-			Designed by Daniel Peck &emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp; Daniel.Jerome.Peck@gmail.com
-		</div>
+			Designed by Daniel Peck</div>
 		
 	</div>
 </div>
