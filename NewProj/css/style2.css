@@ -1,24 +1,13 @@
 html{
-	overflow: hidden;
-	overflow-x: hidden;
+
 }
 
 body{
 	font-family: "Helvetica";
-	float: none;
-	width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
 }
 
 p {
 	font-size: 12px;
-}
-
-.forB {
-	text-align: justify;
 }
 
 .everything{
@@ -50,8 +39,6 @@ p {
 	text-align: center;
 	background-color: #333333;
 	clear: both;
-	padding-left: 0px;
-	padding-right: 0px;
 	font-size: 12px;
 }
 
@@ -119,6 +106,7 @@ h3 {
 	padding-right: 30px;
 	padding-left: 30px;
 	font-size: 7px;
+	text-align: justify;
 }
 
 #footer{
@@ -127,10 +115,9 @@ h3 {
 	bottom: 0px;
 	text-align: center;
 	background-color: #333333;
-	padding: 10px;
-	clear: both;
-	padding-left:30px;
-	padding-right: 30px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 
@@ -167,12 +154,6 @@ h3 {
 
 /* Overwriting styles for control arrows for slides
 * --------------------------------------- */
-.controlArrow.prev {
-	left: 50px;
-}
-.controlArrow.next{
-	right: 50px;
-}
 
 .fp-controlArrow {
 	display: none;
@@ -187,8 +168,7 @@ h3 {
 	bottom: 0px;
 	text-align: center;
 	background-color: #333333;
-	padding: 25px;
-	clear: both;
+	padding: 30px;
 	padding-left:30px;
 	padding-right: 30px;
 	font-size: 20px;
@@ -203,9 +183,6 @@ p{
 	padding-left: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	color: #FFFFFF;
-	text-decoration: none;
-
 }
 
 .M {
@@ -214,29 +191,22 @@ p{
 }
 
 #pic{
-	float:left;
 	padding-right: 30px;
 	height: 350px;
-	width: auto;
 }
 
 #pic3{
-	float:left;
 	padding-right: 30px;
 	height: 200px;
-	width: auto;
 }
 
 #pic2{
-	float:right;
 	padding-left: 30px;
 	height:200px;
-	width: auto;
 }
 
 #pic4 {
 	height: 200px;
-	width: auto;
 }
 
 .menu{
@@ -256,6 +226,14 @@ p{
 .fp-controlArrow {
 	display: block;
 }
+
+.controlArrow.prev {
+	left: 50px;
+}
+.controlArrow.next{
+	right: 50px;
+}
+
 
 h3 {
 	font-size: 16px;
