@@ -1,0 +1,262 @@
+html{
+	overflow: hidden;
+	overflow-x: hidden;
+}
+
+body{
+	font-family: "Helvetica";
+	float: none;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+p {
+	font-size: 12px;
+}
+
+.forB {
+	text-align: justify;
+}
+
+.everything{
+	font: 20px "Helvetica";
+	color: #fff;
+}
+
+#link {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#link:hover {
+    background-color: #AAAAAA;
+}
+
+#link:active {
+	background-color: #AAAAAA
+}
+
+#footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background-color: #333333;
+	clear: both;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 12px;
+}
+
+.M{
+	font-size: 10px;
+	padding-top: 20px;
+}
+
+
+.intro {
+	padding-left: 120px;
+	padding-right: 120px;
+}
+
+#pic{
+	float:left;
+	height: 200px;
+	width: auto;
+	padding-right: 15px;
+}
+
+#pic2{
+	float:right;
+	height: 180px;
+	width: auto;
+	padding-left: 15px;
+}
+
+#pic3{
+	float:left;
+	height: 180px;
+	width: auto;
+	padding-right: 15px;
+}
+
+#pic4{
+	height: 200px;
+	width: auto;
+}
+
+
+.name {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+.menu {
+	padding: 10px;
+	position: fixed;
+	z-index: 10;
+	text-align: center;
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	vertical-align: center;
+	margin-right: 300px;
+	font-size: 12px;
+}
+
+.cscontent {
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 7px;
+}
+
+#footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background-color: #333333;
+	padding: 10px;
+	clear: both;
+	padding-left:30px;
+	padding-right: 30px;
+}
+
+
+
+
+/* Unaffected Parts
+* --------------------------------------- */
+#infoMenu li a {
+	color: #fff;
+}
+
+
+
+
+
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+	text-align:center;
+	background-size: cover;
+	padding:0px;
+}
+
+#section0,
+#section1,
+#section2,
+#section3,
+#section4,
+#section5{
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Overwriting styles for control arrows for slides
+* --------------------------------------- */
+.controlArrow.prev {
+	left: 50px;
+}
+.controlArrow.next{
+	right: 50px;
+}
+
+.fp-controlArrow {
+	display: none;
+}
+
+@media all and (min-width: 1000px){
+
+
+#footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background-color: #333333;
+	padding: 25px;
+	clear: both;
+	padding-left:30px;
+	padding-right: 30px;
+	font-size: 20px;
+}
+
+p{
+	font-size: 16px;
+}
+
+#link {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.M {
+	padding-top: 80px;
+	font-size: 20px;
+}
+
+#pic{
+	float:left;
+	padding-right: 30px;
+	height: 350px;
+	width: auto;
+}
+
+#pic3{
+	float:left;
+	padding-right: 30px;
+	height: 200px;
+	width: auto;
+}
+
+#pic2{
+	float:right;
+	padding-left: 30px;
+	height:200px;
+	width: auto;
+}
+
+#pic4 {
+	height: 200px;
+	width: auto;
+}
+
+.menu{
+	padding: 30px;
+	font-size: 20px;
+}
+
+.cscontent {
+	font-family: 'Roboto';
+	padding-left:120px;
+	padding-right:120px;
+	padding-bottom: 30px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.fp-controlArrow {
+	display: block;
+}
+
+h3 {
+	font-size: 16px;
+}
