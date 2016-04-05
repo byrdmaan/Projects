@@ -4,15 +4,16 @@ html{
 
 body{
 	font-family: "Helvetica";
+	font: 20px "Helvetica";
+	color: #fff;
 }
 
 p {
 	font-size: 12px;
 }
 
-.everything{
-	font: 20px "Helvetica";
-	color: #fff;
+h3 {
+	font-size: 12px;
 }
 
 #link {
@@ -77,16 +78,13 @@ p {
 #pic4{
 	height: 200px;
 	width: auto;
+	text-align: center;
 }
 
 
 .name {
 	font-size: 20px;
 	cursor: pointer;
-}
-
-h3 {
-	font-size: 12px;
 }
 
 .menu {
@@ -120,18 +118,9 @@ h3 {
 	padding-bottom: 10px;
 }
 
-
-
-
-/* Unaffected Parts
-* --------------------------------------- */
 #infoMenu li a {
 	color: #fff;
 }
-
-
-
-
 
 
 /* Centered texts in each section
@@ -159,6 +148,15 @@ h3 {
 	display: none;
 }
 
+
+
+
+
+
+
+
+
+
 @media all and (min-width: 1000px){
 
 
@@ -172,6 +170,10 @@ h3 {
 	padding-left:30px;
 	padding-right: 30px;
 	font-size: 20px;
+}
+
+h3 {
+	font-size: 16px;
 }
 
 p{
@@ -188,6 +190,20 @@ p{
 .M {
 	padding-top: 80px;
 	font-size: 20px;
+}
+
+.menu{
+	padding: 30px;
+	font-size: 20px;
+}
+
+.cscontent {
+	font-family: 'Roboto';
+	padding-left:120px;
+	padding-right:120px;
+	padding-bottom: 30px;
+	text-align: justify;
+	font-size: 15px;
 }
 
 #pic{
@@ -209,20 +225,6 @@ p{
 	height: 200px;
 }
 
-.menu{
-	padding: 30px;
-	font-size: 20px;
-}
-
-.cscontent {
-	font-family: 'Roboto';
-	padding-left:120px;
-	padding-right:120px;
-	padding-bottom: 30px;
-	text-align: justify;
-	font-size: 15px;
-}
-
 .fp-controlArrow {
 	display: block;
 }
@@ -232,9 +234,4 @@ p{
 }
 .controlArrow.next{
 	right: 50px;
-}
-
-
-h3 {
-	font-size: 16px;
 }
