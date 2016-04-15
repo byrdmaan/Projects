@@ -81,6 +81,15 @@ h3 {
 	text-align: center;
 }
 
+#myPic {
+	height: 400px;
+	width: auto;
+	transition: -webkit-transform 0.5s ease;
+}
+
+#myPic:active {
+    -webkit-transform: scale(2);
+}
 
 .name {
 	font-size: 20px;
@@ -223,6 +232,16 @@ p{
 
 #pic4 {
 	height: 200px;
+}
+
+#myPic {
+	height: 400px;
+	width: auto;
+	transition: -webkit-transform 0.5s ease;
+}
+
+#myPic:active {
+    -webkit-transform: scale(2);
 }
 
 .fp-controlArrow {

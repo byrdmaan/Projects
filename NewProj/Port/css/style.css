@@ -1,0 +1,247 @@
+/*    Global     */
+
+html {
+}
+
+body {
+	font-family: "Helvetica";
+	color: #fff;
+	margin:0px;
+}
+
+a {
+
+}
+
+h1{
+	font-size: 24px;
+}
+
+p {
+	font-size: 10px;
+}
+
+/*     Pages and Specific ID's     */
+
+.title {
+	background-color: #adccb8;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+}
+
+.mission {
+	background-color: #667c67;
+	height: 100vh;
+	text-align: center;
+	vertical-align: top;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.mission h1 {
+	position: relative;
+	text-align: center;
+	top: 50%;
+}
+
+.showpage {
+	background-color: #9fa8a3;
+	height: 100vh;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+
+.showpage h1 {
+	position: relative;
+	text-align: center;
+	top: 50%;
+}
+
+#data {
+	border-top: solid;
+}
+
+#design {
+
+}
+
+.contact {
+	background-color: #717f89;
+	height: 90vh;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+
+.contact h1 {
+	position: relative;
+	text-align: center;
+	top:50%;
+}
+
+.contact p {
+	position: relative;
+	text-align: center;
+	top: 50%;
+}
+
+/*      Homemade Stuff     */
+
+
+
+
+#link {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display:block;
+	cursor: pointer;
+}
+
+#link:hover {
+    background-color: #AAAAAA;
+}
+
+#link:active {
+	background-color: #AAAAAA
+}
+
+#footer{
+	left: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	background-color: #333333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 10;
+}
+
+/*     Pics     */
+
+#prof {
+	width: auto;
+	height: 200px;
+	padding-top: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+/*     Stuff for Dropdowns   */
+
+#submenu {
+	float:left;
+	background-color:#333333;
+	padding:10px;
+	font-size:20px;
+	z-index: 10;
+}
+
+.menu {
+	font-family: 'Helvetica';
+	font-size: 30px;
+	background-color: #999999;
+	position: fixed;
+	width:100%;
+	height: 43px;
+	z-index: 10;
+}
+
+
+.myDropdown {
+    position: absolute;
+    display: inline-block;
+    margin:0px;
+}
+
+.myDropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    z-index: 10;
+    top: inherit;
+    top:43px;
+    font-size: 12px;
+}
+
+.myDropdown:hover .myDropdown-content {
+    display: block;
+}
+
+
+
+
+@media all and (min-width: 1000px) {
+
+
+p {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+
+.menu {
+	font-size: 20px;
+	padding: 30px;
+	position: fixed;
+	z-index: 10;
+	text-align: center;
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	vertical-align: center;
+	font-size: 12px;
+}
+
+#submenu {
+	display: none;
+}
+
+.myDropdown-content{
+	display: inline;
+	position: fixed;
+	z-index: 10;
+	text-align: center;
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	vertical-align: center;
+	font-size: 20px;
+	top: 0px;
+	left: 0px;
+	padding: 30px;
+}
+
+#link {
+	display: inline;
+	padding: 10px 30px 10px;
+	width: auto;
+}
+
+#prof {
+	padding-top: 180px;
+	height: 250px;
+}
+
+#footer{
+	padding: 30px;
+	padding-left:30px;
+	padding-right: 30px;
+	font-size: 20px;
+}
+
+}
