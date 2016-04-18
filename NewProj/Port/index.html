@@ -57,12 +57,28 @@
 
 
 	<script>
+	var foo = true;
 	$(function()
 	{
      	$("h1#toggle").click(function()
      	{
-        	$("#show").slideToggle();
-        	return false;
+        	
+     		if (foo == true)
+     		{
+	        	$("#show").slideToggle("slow", "swing");
+	        	$("h1#toggle").css("top","5%");
+	        	$("#mine").css("display","inline-block");
+	        	foo = false;
+	        	return false;
+	        }
+	        else
+	        {
+	        	$("#show").slideToggle("slow", "swing");
+	        	$("h1#toggle").css("top","50%");
+	        	$("#mine").css("display","none");
+	        	foo = true;
+	        	return false;
+	        }
      	}); 
 	});
 	</script>
@@ -72,7 +88,7 @@
 	{
      	$("h1#toggle2").click(function()
      	{
-        	$("#show2").slideToggle();
+        	$("#show2").slideToggle("slow", "swing");
         	return false;
      	}); 
 	});
@@ -114,6 +130,12 @@
  		<div class="myBlock" id="show">
  		</div>
  		<h1 id="toggle"><a id="link">Design</a></h1>
+ 		<br>
+ 		<div class="myCont" id="mine">
+ 			<div class="mybox" id="box1"><h6>Human-Centered Design</h6></div>
+ 			<div class="mybox" id="box2"><h6>Design Research Methods</h6></div>
+ 			<div class="mybox" id="box3"><h6>Group Brainstorm and Synthesis</h6></div>
+ 		</div>
  	</div>
  	<div id="data" class="showpage">
  		<div class="myBlock" id="show2">

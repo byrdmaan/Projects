@@ -136,6 +136,32 @@ p {
 	background-color: #123456;
 }
 
+.myCont {
+	display: none;
+	text-align: center;
+}
+
+.mybox {
+	height: auto;
+	width: auto;
+	border: solid;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#box1 {
+	top: 30%;
+}
+
+#box2 {
+	top: 40%;
+}
+
+#box3 {
+	top: 50%;
+}
+
 /*     Pics     */
 
 #prof {
