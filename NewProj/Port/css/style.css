@@ -142,8 +142,8 @@ p {
 }
 
 .mybox {
-	height: 30px;
-	width: 30px;
+	height: auto;
+	width: auto;
 	border: solid;
 	display: block;
 	position: relative;
