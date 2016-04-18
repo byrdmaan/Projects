@@ -148,6 +148,7 @@ p {
 	display: block;
 	position: relative;
 	text-align: center;
+	float: right;
 }
 
 #box1 {
