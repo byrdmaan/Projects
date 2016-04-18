@@ -55,6 +55,30 @@
 	});
 	</script>
 
+
+	<script>
+	$(function()
+	{
+     	$("h1#toggle").click(function()
+     	{
+        	$("#show").slideToggle();
+        	return false;
+     	}); 
+	});
+	</script>
+
+	<script>
+	$(function()
+	{
+     	$("h1#toggle2").click(function()
+     	{
+        	$("#show2").slideToggle();
+        	return false;
+     	}); 
+	});
+	</script>
+
+
  </head>
 
 
@@ -65,7 +89,7 @@
 
  	<div class="menu">
  	<div class="myDropdown">
-  		<span id="submenu">Menu</span>
+  		<span id="submenu"><img src="img/menu.png" id="menubar" alt="Menu"></img></span>
   		<div class="myDropdown-content">
   			<div id="drop">
     		<a id="link" href="#page1">Intro</a>
@@ -84,12 +108,17 @@
  	</div>
  	<div class="mission" id="page2">
  		<h1>Mission Statement</h1>
+ 		<p>To understand and engage communities using human-centered design,<br>analytics, and technological skills in effective and unique ways</p>
  	</div>
  	<div id="design" class="showpage">
- 		<h1>Design</h1>
+ 		<div class="myBlock" id="show">
+ 		</div>
+ 		<h1 id="toggle"><a id="link">Design</a></h1>
  	</div>
  	<div id="data" class="showpage">
- 		<h1>Data</h1>
+ 		<div class="myBlock" id="show2">
+ 		</div>
+ 		<h1 id="toggle2"><a id="link">Data</a></h1>
  	</div>
  	<div class="contact" id="page3">
  		<h1><a id="link" href="img/Daniel Peck Resume.pdf" target="_blank">Resume & Contact</a></h1>
