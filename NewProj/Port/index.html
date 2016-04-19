@@ -38,6 +38,9 @@
 
 
 
+
+
+
 	<script>
 	$(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -56,6 +59,11 @@
 	</script>
 
 
+
+
+
+
+
 	<script>
 	var foo = true;
 	$(function()
@@ -66,8 +74,8 @@
      		if (foo == true)
      		{
 	        	$("#show").slideToggle("slow", "swing");
-	        	$("h1#toggle").css("top","5%");
-	        	$("#mine").css("display","inline-block");
+	        	$("h1#toggle").css("top","10%");
+	        	$("#mine").css("display","inline");
 	        	foo = false;
 	        	return false;
 	        }
@@ -83,13 +91,33 @@
 	});
 	</script>
 
+
+
+
+
+
 	<script>
+	var foo2 = true;
 	$(function()
 	{
      	$("h1#toggle2").click(function()
      	{
-        	$("#show2").slideToggle("slow", "swing");
-        	return false;
+        	if (foo2 == true)
+     		{
+	        	$("#show2").slideToggle("slow", "swing");
+	        	$("h1#toggle2").css("top","10%");
+	        	$("#mine2").css("display","inline");
+	        	foo2 = false;
+	        	return false;
+	        }
+	        else
+	        {
+	        	$("#show2").slideToggle("slow", "swing");
+	        	$("h1#toggle2").css("top","50%");
+	        	$("#mine2").css("display","none");
+	        	foo2 = true;
+	        	return false;
+	        }
      	}); 
 	});
 	</script>
@@ -127,20 +155,28 @@
  		<p>To understand and engage communities using human-centered design,<br>analytics, and technological skills in effective and unique ways</p>
  	</div>
  	<div id="design" class="showpage">
- 		<div class="myBlock" id="show">
- 		</div>
- 		<h1 id="toggle"><a id="link">Design</a></h1>
- 		<br>
+ 		<h1 id="forMobile">Design Projects</h1>
+ 		<img class="myBlock" id="show" src="img/PlaceHolder.jpg">
+ 		<h1 id="toggle"><a id="link">Design Projects</a></h1>
  		<div class="myCont" id="mine">
  			<div class="mybox" id="box1">Human-Centered Design<p>Using Skills</p></div>
+ 			<br>
  			<div class="mybox" id="box2">Design Research Methods<p>Methods and Research</p></div>
+ 			<br>
  			<div class="mybox" id="box3">Group Brainstorm and Synthesis<p>I Love Groups</p></div>
  		</div>
  	</div>
  	<div id="data" class="showpage">
- 		<div class="myBlock" id="show2">
+ 		<h1 id="forMobile">Data Projects</h1>
+ 		<img class="myBlock" id="show2" src="img/PlaceHolder.jpg">
+ 		<h1 id="toggle2"><a id="link">Data Projects</a></h1>
+ 		<div class="myCont" id="mine2">
+ 			<div class="mybox" id="box1">Human-Centered Design<p>Using Skills</p></div>
+ 			<br>
+ 			<div class="mybox" id="box2">Design Research Methods<p>Methods and Research</p></div>
+ 			<br>
+ 			<div class="mybox" id="box3">Group Brainstorm and Synthesis<p>I Love Groups</p></div>
  		</div>
- 		<h1 id="toggle2"><a id="link">Data</a></h1>
  	</div>
  	<div class="contact" id="page3">
  		<h1><a id="link" href="img/Daniel Peck Resume.pdf" target="_blank">Resume & Contact</a></h1>
