@@ -216,10 +216,15 @@ p {
 	padding-top: 5px;
 }
 
-#triangle {
-	width: 100px;
-	height: 30px;
+#arrow {
+	width: 50px;
+	height: auto;
 }
+
+
+
+
+
 
 
 
@@ -269,7 +274,7 @@ p {
 
 
 
-
+/*      For medium sized browsers     */
 
 @media all and (min-width: 700px) {
 
@@ -302,7 +307,7 @@ h1 {
 
 
 
-
+/*     Desktop Version    */
 
 @media all and (min-width: 1000px) {
 
@@ -431,3 +436,9 @@ h1 {
 
 
 }
+
+
+
+
+
+
