@@ -75,7 +75,7 @@
      		{
 	     		if (foo == true)
 	     		{
-		        	$("#show").slideToggle("slow", "swing");
+		        	$("#show").slideDown("slow", "swing");
 		        	$("h1#toggle").css("top","10%");
 		        	$("#mine").css("display","inline");
 		        	foo = false;
@@ -83,7 +83,7 @@
 		        }
 		        else
 		        {
-		        	$("#show").slideToggle("slow", "swing");
+		        	$("#show").slideUp("slow", "swing");
 		        	$("h1#toggle").css("top","50%");
 		        	$("#mine").css("display","none");
 		        	foo = true;
@@ -97,19 +97,6 @@
      	}); 
 	});
 	</script>
-
-
-
-	<script>
-	$(document).ready( function(){
-		if ($(window).width() < 1000)
-		{
-			$("#mine").css("display","none");
-			$("#mine2").css("display","none");
-		}
-	});
-	</script>
-
 
 
 
@@ -184,11 +171,17 @@
  	<div class="mission" id="page2">
  		<h1>Purpose</h1>
  		<p>To understand and engage communities using human-centered design,<br>analytics, and technological skills in effective and unique ways</p>
+ 		<br>
+ 		<br>
+ 		<br>
+ 		<br>
+ 		<br>
+ 		<a href="#design"><img id="arrow" src="img/arrow.png"></a>
  	</div>
  	<div id="design" class="showpage">
  		<div id="forMobile">
 	 		<h1>Design Projects</h1>
-	 		<p>I have worked using design based principles</p>
+	 		<p>I work using Human-Centered Design principles</p>
  		</div>
  		<img class="myBlock" id="show" src="img/PlaceHolder.jpg">
  		<h1 id="toggle"><a id="link">Design Projects</a></h1>
@@ -231,7 +224,7 @@
 
  </body>
 <script>
-	var skills = ["I am pretty good at coding", "Nothing warms a heart like a sea shanty", "My favorite book is Moby Dick", "I love a tasteful meat & cheese spread", "Japanese is a great language"];
+	var skills = ["I am pretty good at coding", "Nothing warms a heart on the waves like a sea shanty", "My favorite book is Moby Dick", "I love a tasteful meat & cheese spread", "Japanese is a great language"];
 	var i = 4;
 	document.getElementById("name").addEventListener("click", myFunction);
 

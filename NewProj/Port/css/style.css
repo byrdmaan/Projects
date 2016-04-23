@@ -164,7 +164,9 @@ p {
 	display: none;
 	position: absolute;
 	float: right;
-	top: 20%;
+	top: 25%;
+	max-height: 80vh;
+	width: 30vw;
 }
 
 .mybox {
@@ -175,11 +177,14 @@ p {
 	font-size: 12px;
 	left: -50%;
 	padding: 10px;
+	margin-bottom: 8%;
 }
 
 .mybox p {
 	font-size: 10px;
 }
+
+
 
 #forMobile {
 	padding: 40px;
@@ -219,6 +224,9 @@ p {
 #arrow {
 	width: 50px;
 	height: auto;
+	position: absolute;
+	bottom: 5%;
+	left: 48.5%;
 }
 
 
@@ -299,7 +307,9 @@ h1 {
 	font-size: 24px;
 }
 
-
+.mybox {
+	display: none;
+}
 
 
 
@@ -412,18 +422,18 @@ h1 {
 	display: none;
 	float: left;
 	width: auto;
-	height: 90%;
-	padding-top: 10%
+	height: 100% ;
+	left:50%;
 }
 
 .mybox {
 	font-size: 20px;
 	padding-top: 10px;
-	margin-top: 10px;
+	display: block;
 }
 
 .mybox p {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 #forMobile{
