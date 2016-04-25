@@ -9,10 +9,6 @@ body {
 	margin:0px;
 }
 
-a {
-
-}
-
 h1{
 	font-size: 24px;
 }
@@ -114,7 +110,7 @@ p {
 
 
 
-/*      Homemade Stuff     */
+/*      Link Stuff     */
 
 
 #link {
@@ -133,6 +129,10 @@ p {
 #link:active {
 	background-color: #AAAAAA
 }
+
+
+
+/*      Footer Bar     */
 
 #footer{
 	left: 0;
@@ -320,6 +320,7 @@ h1 {
 
 #footer{
 	font-size: 24px;
+	padding:20px;
 }
 
 .mybox {
