@@ -171,7 +171,7 @@ p {
 
 .mybox {
 	border: solid;
-	display: block;
+	display: none;
 	position: relative;
 	text-align: center;
 	font-size: 12px;
