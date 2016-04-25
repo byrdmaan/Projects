@@ -184,7 +184,10 @@ p {
 	font-size: 10px;
 }
 
-
+.skillhead {
+	position: relative;
+	right: 50%;
+}
 
 #forMobile {
 	padding: 40px;
