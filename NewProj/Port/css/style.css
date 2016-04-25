@@ -287,6 +287,14 @@ p {
 
 /*      For medium sized browsers     */
 
+
+
+
+
+
+
+
+
 @media all and (min-width: 700px) {
 
 
@@ -304,6 +312,10 @@ h1 {
 
 .myBlock {
 	width: 60%;
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #footer{
@@ -337,7 +349,47 @@ h1 {
 	font-size: 36px;
 }
 
+#prof {
+	padding-top: 180px;
+	height: 250px;
+}
 
+.mybox {
+	font-size: 20px;
+	padding-top: 10px;
+	display: block;
+}
+
+.mybox p {
+	font-size: 14px;
+}
+
+
+@media screen and (max-height: 500px) {
+
+	p {
+		font-size: 10px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	#prof {
+		height: 150px;
+		padding-top: 100;
+	}
+	.mybox {
+		font-size: 12px;
+		padding-top: 10px;
+		display: block;
+	}
+
+	.mybox p {
+		font-size: 10px;
+	}
+
+	}
 
 
 
@@ -388,10 +440,7 @@ h1 {
 	width: auto;
 }
 
-#prof {
-	padding-top: 180px;
-	height: 250px;
-}
+
 
 #footer{
 	padding: 30px;
@@ -429,15 +478,7 @@ h1 {
 	left:50%;
 }
 
-.mybox {
-	font-size: 20px;
-	padding-top: 10px;
-	display: block;
-}
 
-.mybox p {
-	font-size: 14px;
-}
 
 #forMobile{
 	display: none;
