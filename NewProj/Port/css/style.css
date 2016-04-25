@@ -33,7 +33,7 @@ p {
 .title {
 	background-color: #adccb8;
 	height: 100vh;
-	max-height: 900px;
+	max-height: 1500px;
 	text-align: center;
 	position: relative;
 }
@@ -41,7 +41,7 @@ p {
 .mission {
 	background-color: #667c67;
 	height: 100vh;
-	max-height: 900px;
+	max-height: 1500px;
 	text-align: center;
 	vertical-align: top;
 	overflow: hidden;
@@ -67,7 +67,7 @@ p {
 	overflow: hidden;
 	text-align: center;
 	position: relative;
-	max-height: 900px;
+	max-height: 1500px;
 }
 
 .showpage h1 {
