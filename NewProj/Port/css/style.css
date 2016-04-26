@@ -226,10 +226,11 @@ a {
 }
 
 .smallMenu h3 {
-	padding: 0px;
 	width: auto;
 	display: inline-block;
-	margin:0px;
+	padding: 20px;
+	border: 2px solid;
+	width: 80%;
 }
 
 .smallMenu h3:hover {
