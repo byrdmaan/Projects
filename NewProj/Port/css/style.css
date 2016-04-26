@@ -187,12 +187,12 @@ a {
 }
 
 .mybox:hover {
-	background-color: #555555;
+	background-color: #333333;
 	cursor: pointer;
 }
 
 .mybox:active {
-	background-color: #555555;
+	background-color: #333333;
 }
 
 .mybox p {
