@@ -168,13 +168,13 @@
 	 		<h1>Design Projects</h1>
 	 		<p>I work using Human-Centered Design principles</p>
  		</div>
- 		<a href="img/portfolio_pizza2.pdf" target="_blank"><img class="myBlock" id="show" src="img/portfolio_pizza2.png"></a>
+ 		<a href="img/portfolio_pizza2.pdf" target="_blank" id="showa"><img class="myBlock" id="show" src=""></a>
  		<h1 id="toggle"><a id="link">Design Projects</a></h1>
  		<div class="myCont" id="mine">
  			<!-- <h3 class="skillhead">Skills & Strengths</h3> -->
- 			<div class="mybox" id="box1">Human-Centered Design<p>Using Skills</p></div></a>
+ 			<div class="mybox" id="box1">Human-Centered Design<p>Methods and skills for design research</p></div></a>
  			<br>
- 			<div class="mybox" id="box2">Design Research Methods<p>Methods and Research</p></div>
+ 			<div class="mybox" id="box2">Understanding of Past Designs<p>Vocabulary and understanding to use past work</p></div>
  			<br>
  			<div class="mybox" id="box3">Group Brainstorm and Synthesis<p>I Love Groups</p></div>
  		</div>
@@ -247,13 +247,17 @@
 document.getElementById("box1").addEventListener("click", changePic1);
 function changePic1() {
 	 var image = document.getElementById('show');
+	 var a = document.getElementById('showa');
 	 image.src = "img/portfolio_pizza2.png";
+	 a.href = "img/portfolio_pizza2.pdf";
 }
 
 document.getElementById("box2").addEventListener("click", changePic2);
 function changePic2() {
 	 var image = document.getElementById('show');
-	 image.src = "img/PlaceHolder.jpg";
+	 var a = document.getElementById('showa');
+	 image.src = "img/Almost.jpg";
+	 a.href = "img/Almost.pdf";
 }
 
 document.getElementById("box3").addEventListener("click", changePic3);

@@ -190,6 +190,10 @@ a {
 	cursor: pointer;
 }
 
+.mybox:active {
+	background-color: #BBBBBB;
+}
+
 .mybox p {
 	font-size: 10px;
 }
