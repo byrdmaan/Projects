@@ -28,7 +28,7 @@ a {
 
 
 
-/*     Pages and Specific ID's     */
+/*     Full Pages and Specific ID's     */
 
 .title {
 	background-color: #adccb8;
@@ -76,7 +76,7 @@ a {
 }
 
 #data {
-	border-top: solid;
+
 }
 
 #design {
@@ -126,11 +126,11 @@ a {
 }
 
 #link:hover {
-    background-color: #BBBBBB;
+    background-color: #999999;
 }
 
 #link:active {
-	background-color: #BBBBBB;
+	background-color: #999999;
 }
 
 
@@ -173,7 +173,7 @@ a {
 }
 
 .mybox {
-	border: solid;
+	border: 2px solid;
 	display: none;
 	position: relative;
 	text-align: center;
@@ -183,7 +183,7 @@ a {
 	margin-bottom: 8%;
 	color: #FFFFFF;
 	text-decoration: none;
-	background-color: #BBBBBB;
+	background-color: #BBC2BE;
 }
 
 .mybox:hover {
@@ -199,9 +199,10 @@ a {
 	font-size: 10px;
 }
 
-.skillhead {
-	position: relative;
-	right: 50%;
+.mybox h3 {
+	padding-top: 0px;
+	font-size: 20px;
+	text-decoration: none;
 }
 
 #forMobile {
@@ -217,9 +218,30 @@ a {
 }
 
 
+/*     Small Menu     */
 
+.smallMenu {
+	vertical-align: middle;
+	display: table-cell;
+}
 
+.smallMenu h3 {
+	padding: 0px;
+	width: auto;
+	display: inline-block;
+	margin:0px;
+}
 
+.smallMenu h3:hover {
+	background-color: #B2B9B5;
+	cursor: pointer;
+}
+
+.smallMenuText {
+	padding-top: 7px;
+	padding-bottom: 0px;
+	margin-bottom: -4px;
+}
 
 
 /*     Pics     */
@@ -301,11 +323,12 @@ a {
 
 
 
+
+
+
+
+
 /*      For medium sized browsers     */
-
-
-
-
 
 
 
@@ -327,7 +350,7 @@ h1 {
 }
 
 .myBlock {
-	width: 60%;
+	width: 80%;
 	text-align: center;
 	display: block;
 	margin-right: auto;
@@ -389,7 +412,7 @@ h1 {
 }
 
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 600px) {
 
 	p {
 		font-size: 10px;

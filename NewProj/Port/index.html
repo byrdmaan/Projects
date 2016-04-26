@@ -19,6 +19,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	
 
+
+	<!--     Script for submenu drop down     -->
 	<script>
 	$(document).ready( function(){
 
@@ -40,6 +42,7 @@
 
 
 
+	<!--     Script for iPhone touch menu mobile     -->
 
 	<script>
 	$(function() {
@@ -73,9 +76,6 @@
 	    	}
      	}); 
 	});
-
-
-
 	$(function()
 	{
      	$("h1#toggle2").click(function()
@@ -134,17 +134,21 @@
  	<div id="design" class="showpage">
  		<div id="forMobile">
 	 		<h1>Design Projects</h1>
-	 		<p>I work using Human-Centered Design principles</p>
+	 		<div class="smallMenu">
+	 			<h3 id="sm1">HCD</h3>
+	 			<h3 id="sm2">Impact of Past Designs</h3>
+	 			<h3 id="sm3">Group Synthesis</h3>
+	 		</div>
  		</div>
  		<a href="img/portfolio_pizza2.pdf" target="_blank" id="showa"><img class="myBlock" id="show" src=""></a>
  		<h1 id="toggle"><a id="link">Design Projects</a></h1>
  		<div class="myCont" id="mine">
  			<!-- <h3 class="skillhead">Skills & Strengths</h3> -->
- 			<div class="mybox" id="box1">Human-Centered Design<p>Methods and skills for design research</p></div></a>
+ 			<div class="mybox" id="box1"><div class="smallMenuText">Human-Centered Design<p>Methods and skills for design research</p></div></div>
  			<br>
- 			<div class="mybox" id="box2">Understanding of Past Designs<p>Vocabulary and understanding to use past work</p></div>
+ 			<div class="mybox" id="box2"><div class="smallMenuText">Understanding of Past Designs<p>Speak concisely and intelligently about design's context and lasting impact</p></div></div>
  			<br>
- 			<div class="mybox" id="box3">Group Brainstorm and Synthesis<p>I Love Groups</p></div>
+ 			<div class="mybox" id="box3"><div class="smallMenuText">Group Brainstorm and Synthesis<p>I Love Groups</p></div></div>
  		</div>
  	</div>
 
@@ -156,17 +160,21 @@
  	<div id="data" class="showpage">
  		<div id="forMobile">
 	 		<h1>Data Projects</h1>
-	 		<p>I have done work with quanitative data</p>
+	 		<div class="smallMenu">
+	 			<h3 id="sm4">Data Cleaning</h3>
+	 			<h3 id="sm5">Association</h3>
+	 			<h3 id="sm6">Evaluation of Deployment</h3>
+	 		</div>
  		</div>
- 		<a href="img/crime.pdf" target="_blank"><img class="myBlock" id="show2" src="img/crime.png"></a>
+ 		<a href="img/crime.pdf" target="_blank"><img class="myBlock" id="show2" src=""></a>
  		<h1 id="toggle2"><a id="link">Data Projects</a></h1>
  		<div class="myCont" id="mine2">
  			<!-- <h3 class="skillhead">Skills & Strengths</h3> -->
- 			<div class="mybox" id="box4">Data Cleaning and Organization<p>Preparation for Mining</p></div>
+ 			<div class="mybox" id="box4"><div class="smallMenuText">Data Cleaning and Organization<p>Preparation for Mining</p></div></div>
  			<br>
- 			<div class="mybox" id="box5">Association and Classifcation Methods<p>Transaction Sets and C-Trees</p></div>
+ 			<div class="mybox" id="box5"><div class="smallMenuText">Association and Classifcation Methods<p>Transaction Sets and C-Trees</p></div></div>
  			<br>
- 			<div class="mybox" id="box6">Evaluation and Deployment Strategies<p>Application is Key</p></div>
+ 			<div class="mybox" id="box6"><div class="smallMenuText">Evaluation and Deployment Strategies<p>Application is Key</p></div></div>
  		</div>
  	</div>
 
@@ -189,6 +197,10 @@
 
 
  </body>
+
+
+<!--     Script for top Button     -->
+
 <script>
 	var skills = ["I am pretty good at coding", "Nothing warms a heart on the waves like a sea shanty", "My favorite book is Moby Dick", "I love a tasteful meat & cheese spread", "Japanese is a great language"];
 	var i = 4;
@@ -204,53 +216,58 @@
 			document.getElementById("demo").innerHTML = skills[0];
 			i = 0;
 		}
-}
+	}
 </script>
 
 
 
-<!-- Design Pic Funcs -->
+
+
+<!--     Design Pic Funcs     -->
 
 <script>
 document.getElementById("box1").addEventListener("click", changePic1);
 function changePic1() {
-	 $("#show").slideDown("slow", "swing");
-	 var image = document.getElementById('show');
-	 var a = document.getElementById('showa');
-	 image.src = "img/portfolio_pizza2.png";
-	 a.href = "img/portfolio_pizza2.pdf";
+	$("#show").slideDown("slow", "swing");
+	var image = document.getElementById('show');
+	var a = document.getElementById('showa');
+	image.src = "img/portfolio_pizza2.png";
+	a.href = "img/portfolio_pizza2.pdf";
+	$("#box1").css("background-color","#555555");
+	$("#box2").css("background-color","#BBC2BE");
+	$("#box3").css("background-color","#BBC2BE");
 }
 
 document.getElementById("box2").addEventListener("click", changePic2);
 function changePic2() {
-	 $("#show").slideDown("slow", "swing");
-	 var image = document.getElementById('show');
-	 var a = document.getElementById('showa');
-	 image.src = "img/Almost.jpg";
-	 a.href = "img/Almost Caught.pdf";
+	$("#show").slideDown("slow", "swing");
+	var image = document.getElementById('show');
+	var a = document.getElementById('showa');
+	image.src = "img/Almost2.jpg";
+	a.href = "img/Almost Caught.pdf";
+	$("#box1").css("background-color","#BBC2BE");
+	$("#box2").css("background-color","#555555");
+	$("#box3").css("background-color","#BBC2BE");
 }
 
 document.getElementById("box3").addEventListener("click", changePic3);
 function changePic3() {
-	 $("#show").slideDown("slow", "swing");
-	 var image = document.getElementById('show');
-	 image.src = "img/PlaceHolder.jpg";
+	$("#show").slideDown("slow", "swing");
+	var image = document.getElementById('show');
+	image.src = "img/PlaceHolder.jpg";
+	$("#box1").css("background-color","#BBC2BE");
+	$("#box2").css("background-color","#BBC2BE");
+	$("#box3").css("background-color","#555555");
 }
-</script>
 
-
-
-
-
-
-<!-- Data Pic Funcs -->
-
-<script>
 document.getElementById("box4").addEventListener("click", changePic4);
 function changePic4() {
 	$("#show2").slideDown("slow", "swing");
  	var image = document.getElementById('show2');
 	image.src = "img/crime.png";
+	$("#box4").css("background-color","#555555");
+	$("#box5").css("background-color","#BBC2BE");
+	$("#box6").css("background-color","#BBC2BE");
 }
 
 document.getElementById("box5").addEventListener("click", changePic5);
@@ -258,6 +275,9 @@ function changePic5() {
 	$("#show2").slideDown("slow", "swing");
 	var image = document.getElementById('show2');
 	image.src = "img/PlaceHolder.jpg";
+	$("#box4").css("background-color","#BBC2BE");
+	$("#box5").css("background-color","#555555");
+	$("#box6").css("background-color","#BBC2BE");
 }
 
 document.getElementById("box6").addEventListener("click", changePic6);
@@ -265,8 +285,26 @@ function changePic6() {
 	$("#show2").slideDown("slow", "swing");
 	var image = document.getElementById('show2');
 	image.src = "img/PlaceHolder.jpg";
+	$("#box4").css("background-color","#BBC2BE");
+	$("#box5").css("background-color","#BBC2BE");
+	$("#box6").css("background-color","#555555");
 }
 </script>
+
+
+<!--          Same but for Mobile     -->
+
+<script>
+document.getElementById("sm1").addEventListener("click", changePic1);
+document.getElementById("sm2").addEventListener("click", changePic2);
+document.getElementById("sm3").addEventListener("click", changePic3);
+document.getElementById("sm4").addEventListener("click", changePic4);
+document.getElementById("sm5").addEventListener("click", changePic5);
+document.getElementById("sm6").addEventListener("click", changePic6);
+</script>
+
+
+
 
 
 
