@@ -62,7 +62,6 @@
 
 
 	<script>
-	var foo = true;
 	$(function()
 	{
      	$("h1#toggle").click(function()
@@ -70,60 +69,29 @@
         	
      		if ($(window).width() > 1000)
      		{
-	     		if (foo == true)
-	     		{
-		        	$("#show").slideDown("slow", "swing");
-		        	$("h1#toggle").css("top","10%");
-		        	$("#mine").css("display","inline");
-		        	foo = false;
-		        	return false;
-		        }
-		        else
-		        {
-		        	$("#show").slideUp("slow", "swing");
-		        	$("h1#toggle").css("top","50%");
-		        	$("#mine").css("display","none");
-		        	foo = true;
-		        	return false;
-		        }
+	     		$("#show").slideUp("slow", "swing");
 	    	}
      	}); 
 	});
-	</script>
 
 
 
-
-
-	<script>
-	var foo2 = true;
 	$(function()
 	{
      	$("h1#toggle2").click(function()
      	{
-        	
      		if ($(window).width() > 1000)
      		{
-	        	if (foo2 == true)
-	     		{
-		        	$("#show2").slideToggle("slow", "swing");
-		        	$("h1#toggle2").css("top","10%");
-		        	$("#mine2").css("display","inline");
-		        	foo2 = false;
-		        	return false;
-		        }
-		        else
-		        {
-		        	$("#show2").slideToggle("slow", "swing");
-		        	$("h1#toggle2").css("top","50%");
-		        	$("#mine2").css("display","none");
-		        	foo2 = true;
-		        	return false;
-		        }
+	        	$("#show2").slideUp("slow", "swing");
 		    }
      	}); 
 	});
 	</script>
+
+
+
+
+
 
 
  </head>
@@ -246,6 +214,7 @@
 <script>
 document.getElementById("box1").addEventListener("click", changePic1);
 function changePic1() {
+	 $("#show").slideDown("slow", "swing");
 	 var image = document.getElementById('show');
 	 var a = document.getElementById('showa');
 	 image.src = "img/portfolio_pizza2.png";
@@ -254,6 +223,7 @@ function changePic1() {
 
 document.getElementById("box2").addEventListener("click", changePic2);
 function changePic2() {
+	 $("#show").slideDown("slow", "swing");
 	 var image = document.getElementById('show');
 	 var a = document.getElementById('showa');
 	 image.src = "img/Almost.jpg";
@@ -262,6 +232,7 @@ function changePic2() {
 
 document.getElementById("box3").addEventListener("click", changePic3);
 function changePic3() {
+	 $("#show").slideDown("slow", "swing");
 	 var image = document.getElementById('show');
 	 image.src = "img/PlaceHolder.jpg";
 }
@@ -277,20 +248,23 @@ function changePic3() {
 <script>
 document.getElementById("box4").addEventListener("click", changePic4);
 function changePic4() {
-	 var image = document.getElementById('show2');
-	 image.src = "img/crime.png";
+	$("#show2").slideDown("slow", "swing");
+ 	var image = document.getElementById('show2');
+	image.src = "img/crime.png";
 }
 
 document.getElementById("box5").addEventListener("click", changePic5);
 function changePic5() {
-	 var image = document.getElementById('show2');
-	 image.src = "img/PlaceHolder.jpg";
+	$("#show2").slideDown("slow", "swing");
+	var image = document.getElementById('show2');
+	image.src = "img/PlaceHolder.jpg";
 }
 
 document.getElementById("box6").addEventListener("click", changePic6);
 function changePic6() {
-	 var image = document.getElementById('show2');
-	 image.src = "img/PlaceHolder.jpg";
+	$("#show2").slideDown("slow", "swing");
+	var image = document.getElementById('show2');
+	image.src = "img/PlaceHolder.jpg";
 }
 </script>
 

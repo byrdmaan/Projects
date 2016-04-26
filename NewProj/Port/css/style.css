@@ -192,7 +192,7 @@ a {
 }
 
 .mybox:active {
-	background-color: #BBBBBB;
+	background-color: #555555;
 }
 
 .mybox p {
@@ -490,7 +490,7 @@ h1 {
 }
 
 .showpage h1 {
-	top: 50%;
+	top: 10%;
 	padding-top: 0px;
 }
 
@@ -502,7 +502,9 @@ h1 {
 	left:50%;
 }
 
-
+.myCont {
+	display: inline;
+}
 
 #forMobile{
 	display: none;
