@@ -183,10 +183,11 @@ a {
 	margin-bottom: 8%;
 	color: #FFFFFF;
 	text-decoration: none;
+	background-color: #BBBBBB;
 }
 
 .mybox:hover {
-	background-color: #BBBBBB;
+	background-color: #555555;
 	cursor: pointer;
 }
 
