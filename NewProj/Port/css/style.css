@@ -18,9 +18,9 @@ p {
 	position: relative;
 }
 
-
-
-
+a {
+	text-decoration: none;
+}
 
 
 
@@ -126,11 +126,11 @@ p {
 }
 
 #link:hover {
-    background-color: #AAAAAA;
+    background-color: #BBBBBB;
 }
 
 #link:active {
-	background-color: #AAAAAA
+	background-color: #BBBBBB;
 }
 
 
@@ -181,6 +181,13 @@ p {
 	left: -50%;
 	padding: 10px;
 	margin-bottom: 8%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.mybox:hover {
+	background-color: #BBBBBB;
+	cursor: pointer;
 }
 
 .mybox p {
