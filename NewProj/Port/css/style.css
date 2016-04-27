@@ -335,7 +335,7 @@ a {
 
 
 
-@media all and (min-width: 700px) {
+@media screen and (min-width: 700px) {
 
 
 p {
@@ -386,7 +386,7 @@ h1 {
 
 /*     Desktop Version    */
 
-@media all and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 
 
 p {

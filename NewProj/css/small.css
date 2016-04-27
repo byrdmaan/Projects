@@ -1,0 +1,104 @@
+html{
+
+}
+
+body{
+	font-family: "Helvetica";
+}
+
+#footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	background-color: #333333;
+	padding: 25px;
+	clear: both;
+	padding-left:30px;
+	padding-right: 30px;
+}
+
+.caseStudy {
+
+}
+
+.cscontent {
+	font-family: 'Roboto';
+	padding-left:120px;
+	padding-right:120px;
+	padding-bottom: 30px;
+	text-align: justify;
+	font-size: 10px;
+}
+.menu{
+	position:fixed;
+	z-index: 10;
+	text-align: center;
+	background-color: #333333;
+	width: 100%;
+	height: auto;
+	vertical-align: center;
+	padding: 25px;
+	font-size: 18px;
+}
+
+#link {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+#link:hover {
+    background-color: #AAAAAA;
+}
+
+#link:active {
+	background-color: #AAAAAA
+}
+
+.everything{
+	font: 18px "Helvetica";
+	color: #fff;
+
+}
+
+.intro p{
+
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+	text-align:center;
+	background-size: cover;
+	padding:0px;
+}
+
+#section0,
+#section1,
+#section2,
+#section3,
+#section4,
+#section5{
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* Overwriting styles for control arrows for slides
+* --------------------------------------- */
+.controlArrow.prev {
+	left: 50px;
+}
+.controlArrow.next{
+	right: 50px;
+}
+
+
+/* Bottom menu
+* --------------------------------------- */
+#infoMenu li a {
+	color: #fff;
+}
