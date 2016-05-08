@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost:8080/branchout/search.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="initial-scale=1"><meta name="viewport" content="user-scalable=yes,width=device-width,initial-scale=1"><title>branchout</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="./branchout_files/main.css">
+	<script src="./branchout_files/jquery.min.js"></script>
+	<script src="./branchout_files/spin.js"></script><style type="text/css"></style>
+	<!-- <script src="css/spin.min.js"></script> -->
+	<script type="text/javascript">
+	  $(document).ready(function() { set_nav(); });
+	</script>
+	<script type="text/javascript" src="./branchout_files/api"></script>
+	<script src="./branchout_files/createEvent.js"></script>
+
+
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body class="homepage">
+	<div id="page-wrapper">
+		<nav id="nav">
+			<ul>
+				<li class="current" style="white-space: nowrap;"><a href="http://localhost:8080/branchout/index.html">Branchout</a></li>
+				<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/index.html#main">About Us</a></li>
+				<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/dashboard.html">Events</a></li>
+				<li style="white-space: nowrap;"><a href="./branchout_files/branchout.html">Search Events</a></li>
+				<li class="user" style="white-space: nowrap;"><a href="http://localhost:8080/branchout/createEvent.html">Create Event</a></li>
+				<li class="nonuser" style="white-space: nowrap;"><a href="http://localhost:8080/branchout/login.html">Login</a></li>
+				<li class="user opener" style="-webkit-user-select: none; cursor: pointer; white-space: nowrap;"><a id="title_name" href="">John Smith</a>
+					
+				<ul class="" style="-webkit-user-select: none; display: none; position: absolute;">
+						<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/search.html#" style="display: block;">View Profile</a></li>
+						<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/search.html#" style="display: block;">Starred Events</a></li>
+						<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/search.html#" style="display: block;">My Events</a></li>
+						<li style="white-space: nowrap;"><a onclick="logout()" href="" style="display: block;">Logout</a></li>
+					</ul></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main-wrapper">
+			<div id="main" class="container">
+
+				<div class="row 200%">
+					<div class="12u">
+
+						<!-- Highlight -->
+						<section class="box highlight">
+							<header>
+								<h2>Events</h2>
+								<p>Location: Dallas, Tx</p>
+							</header>
+							<div class="5u" style="margin:auto">
+								<form class="form" id="searchBar" action="javascript:search()">
+								<input type="submit" value="Go!" style="float: right">
+								<div style="overflow: hidden; padding-right: .5em;">
+									<input type="text" placeholder="Search" id="search" style="width: 100%">
+								</div>
+
+
+
+
+
+									<!--<input type="text" placeholder="Search" id="search" style="display: inline">
+									<input type="submit" value="Go!" style="float: right">-->
+								</form>
+							</div>
+						</section>
+
+					</div>
+				</div>
+				<div class="row 200%">
+					<div class="6u">
+
+						<!-- Features -->
+						<section class="box features" style="margin: 0px">
+						<div id="event-content-left">
+
+						</div>
+					</section>
+
+					</div>
+
+
+					<div class="6u">
+
+						<!-- Features -->
+						<section class="box features" style="margin: 0px">
+						<div id="event-content-right">
+
+						</div>
+
+
+
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- Footer -->
+	<footer id="footer" class="container">
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul class="menu">
+				<li>© Dynamic Alligators. All rights reserved</li>
+				<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</footer>
+
+	
+
+	<!-- Scripts -->
+	<script src="./branchout_files/jquery.min.js"></script>
+	<script src="./branchout_files/jquery.dropotron.min.js"></script>
+	<script src="./branchout_files/skel.min.js"></script>
+	<script src="./branchout_files/skel-viewport.min.js"></script>
+	<script src="./branchout_files/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="./branchout_files/main.js"></script>
+
+
+
+
+<ul class="dropotron level-0" style="-webkit-user-select: none; display: none; position: absolute; z-index: 1000;">
+						<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/search.html#" style="display: block;">View Profile</a></li>
+						<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/search.html#" style="display: block;">Starred Events</a></li>
+						<li style="white-space: nowrap;"><a href="http://localhost:8080/branchout/search.html#" style="display: block;">My Events</a></li>
+						<li style="white-space: nowrap;"><a onclick="logout()" href="" style="display: block;">Logout</a></li>
+					</ul><div id="titleBar"><a href="http://localhost:8080/branchout/search.html#navPanel" class="toggle"></a><span class="title">undefined</span></div><div id="navPanel"><nav><a class="link depth-0" href="http://localhost:8080/branchout/index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Branchout</a><a class="link depth-0" href="http://localhost:8080/branchout/index.html#main" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>About Us</a><a class="link depth-0" href="http://localhost:8080/branchout/dashboard.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Events</a><a class="link depth-0" href="./branchout_files/branchout.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Search Events</a><a class="link depth-0" href="http://localhost:8080/branchout/createEvent.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Create Event</a><a class="link depth-0" href="http://localhost:8080/branchout/login.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>Login</a><a class="link depth-0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-0"></span>John Smith</a><a class="link depth-1" href="http://localhost:8080/branchout/search.html#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>View Profile</a><a class="link depth-1" href="http://localhost:8080/branchout/search.html#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Starred Events</a><a class="link depth-1" href="http://localhost:8080/branchout/search.html#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>My Events</a><a class="link depth-1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><span class="indent-1"></span>Logout</a></nav></div></body></html>

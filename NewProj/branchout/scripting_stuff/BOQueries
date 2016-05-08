@@ -1,0 +1,74 @@
+----------------------------------------------------------
+1 - Find any events in Dallas between next Friday and Sunday.
+----------------------------------------------------------
+
+SELECT events.*
+FROM events
+WHERE events.city = "Dallas"
+AND startDate >= "2015-10-10"
+AND startDate <= "2015-10-30";
+
+----------------------------------------------------------
+2 - Find events that are called “Halloween Party” on October 31, 2015.
+----------------------------------------------------------
+
+SELECT events.*
+FROM events
+WHERE events.eventName = "Halloween Party"
+AND startDate = "2015-10-31";
+
+----------------------------------------------------------
+3 - Find events in my zipcode with less than a hundred people going, but more than 50.
+----------------------------------------------------------
+
+SELECT events.*
+FROM events, registeredUser
+WHERE registeredUser.userId = 1
+AND registeredUser.zipcode = events.zipcode
+AND numAttend > 0
+AND numAttend < 50;
+
+----------------------------------------------------------
+4 - Show the events that userId 1 tagged as interesting
+----------------------------------------------------------
+
+SELECT events.*
+FROM events, interested
+WHERE interested.userId = 1
+AND events.eventID = interested.eventID;
+
+----------------------------------------------------------
+5 - Show the events that userId 1 tagged as going
+----------------------------------------------------------
+
+SELECT events.*
+FROM events, going
+WHERE going.userId = 1
+AND events.eventID = going.eventID;
+
+----------------------------------------------------------
+6 - Find users interested in a certain event
+----------------------------------------------------------
+
+SELECT registeredUser.username
+FROM registeredUser, interested
+WHERE registeredUser.userId = interested.userId
+AND eventId = 14;
+
+----------------------------------------------------------
+7 - Find users going to a certain event
+----------------------------------------------------------
+
+SELECT registeredUser.username
+FROM registeredUser, going
+WHERE registeredUser.userId = going.userId
+AND eventId = 14;
+
+----------------------------------------------------------
+8 - Find number of users going to a certain event
+----------------------------------------------------------
+
+SELECT COUNT(registeredUser.username)
+FROM registeredUser, going
+WHERE registeredUser.userId = going.userId
+AND eventId = 14;
