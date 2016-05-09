@@ -20,7 +20,7 @@ img {
 #link {
 	text-decoration: none;
 	color: #FFFFFF;
-	padding: 15px;
+	padding: 20px 15px 15px;
 }
 
 #link:hover {
@@ -63,7 +63,9 @@ img {
 	color: #CCCCCC;
 }
 
-
+#nameCol hr {
+	border-top: 3px solid #FFFFFF;
+}
 
 
 
@@ -114,6 +116,11 @@ img {
 
 }
 
+#caseCol hr {
+	border-top: 3px solid #999999;
+}
+
+
 #indent {
 	margin-left: 100px;
 }
@@ -125,6 +132,10 @@ img {
 }
 
 
+
+
+
+
 #aboutCol {
 	display: inline;
 	position: absolute;
@@ -132,10 +143,19 @@ img {
 	padding-left: 100px;
 }
 
+#aboutCol h3 {
+	line-height: 150%;
+}
+
 #aboutCol h1 {
 	font-size: 50px;
 	padding-right: 50px;
 }
+
+#aboutCol hr {
+	border-top: 3px solid #999999;
+}
+
 
 #aboutRow h3{
 	line-height: 125%;
