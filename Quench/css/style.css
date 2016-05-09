@@ -1,0 +1,300 @@
+body {
+	font-family: "univers";
+}
+
+html {
+	
+}
+
+img {
+
+}
+
+@font-face {
+    font-family: univers;
+    src: url(../lib/UniversLTStd.otf);
+}
+
+
+
+#link {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 15px;
+}
+
+#link:hover {
+	background-color: #555555;
+}
+
+#linkh {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+#nameCol {
+	background-color: #999999;
+	position: fixed;
+	left: 0px;
+	min-height: 100vh;
+	color: #FFFFFF;
+	overflow:hidden;
+}
+
+#nameCol h1 {
+	line-height: 130%;
+}
+
+#nameCol h3 {
+	text-align: center;
+}
+
+#nameCol h1 b {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+
+
+
+
+
+#senCol {
+	display: inline;
+	position: absolute;
+	right: 0px;
+}
+
+#senCol h1 {
+	font-size: 50px;
+	padding: 30px 30px 30px;
+	line-height: 120%;
+}
+
+#senCol h3 {
+	color: #333333;
+}
+
+#senCol hr {
+	border-top: 3px solid #333333;
+	width: 90%;
+}
+
+.images {
+	color:#777777;
+	text-align: center;
+}
+
+
+
+
+
+#caseCol {
+	display: inline;
+	position: absolute;
+	right: 0px;
+	padding-left: 100px;
+}
+
+#caseCol .row {
+
+}
+
+#caseCol p {
+	font-size: 16px;
+
+}
+
+#indent {
+	margin-left: 100px;
+}
+
+.content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+
+#aboutCol {
+	display: inline;
+	position: absolute;
+	right: 0px;
+	padding-left: 100px;
+}
+
+#aboutCol h1 {
+	font-size: 50px;
+	padding-right: 50px;
+}
+
+#aboutRow h3{
+	line-height: 125%;
+	padding-left: 30px;
+}
+
+.contact {
+	display: inline;
+	font-size: 30px;
+	line-height: 100%;
+}
+
+#resume {
+	color:#333333;
+}
+
+#resume:hover {
+	text-decoration: underline;
+}
+
+
+/*     Pictures     */
+
+#comp {
+	height: 100px;
+	width: auto;
+}
+
+#mag {
+	height: 100px;
+	width: auto;
+}
+
+#fire {
+	height: 100px;
+	width: auto;
+}
+
+#compN {
+	height: 30px;
+	padding: 0px 30px 0px;
+}
+
+#magN {
+	height: 30px;
+	padding: 0px 30px 0px;
+}
+
+#fireN {
+	height: 30px;
+	padding: 0px 30px 0px;
+}
+
+
+
+
+/*     Case Study 1 Pics     */
+
+#cs11 {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	width: 40%;
+	height: auto;
+	float: right;
+	margin: 30px;
+	padding: 30px;
+}
+
+#cs12 {
+	width: 40%;
+	padding: 30px;
+	display: inline-block;
+}
+
+#cs13 {
+	width: 50%;
+	padding: 30px;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+#cs14 {
+	width: 50%;
+	padding: 30px;
+}
+
+
+
+
+
+/*     Case Study 2 Pics     */
+
+#cs21 {
+	width: 40%;
+	height: auto;
+	float: right;
+	padding: 30px;
+	margin: 30px;
+}
+
+#cs22, #cs24 {
+	width: 40%;
+	padding: 30px;
+	display: inline-block;
+}
+
+
+
+/*     Case Study 3 Pics     */
+
+#cs31, #cs32{
+	width: 80%;
+	height: auto;
+	padding: 30px;
+	text-align: center;
+}
+
+
+
+#dan {
+	width: 30%;
+}
+
+#unessay, #almost, #round {
+	width: 100%;
+}
+
+
+#myGlyph {
+	width:30px;
+}
+
+
+
+
+
+#bottom:hover {
+	/* filter: #333333;
+  	-webkit-filter: grayscale(100%); */
+  	opacity: .4;
+}
+
+
+
+#cs1p {
+	width: 80%;
+	padding: 30px;
+}
+
+#cs2p {
+	width: 80%;
+	padding: 30px;
+}
+
+#cs3p {
+	width: 80%;
+	padding: 30px;
+}
+
+
