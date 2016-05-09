@@ -51,10 +51,11 @@ img {
 
 #nameCol h1 {
 	line-height: 130%;
+	padding-left: 15px;
 }
 
 #nameCol h3 {
-	text-align: center;
+	padding-left: 0px;
 }
 
 #nameCol h1 b {
@@ -188,7 +189,9 @@ img {
 	padding: 0px 30px 0px;
 }
 
-
+.caseIcons {
+	margin-left: -30px;
+}
 
 
 /*     Case Study 1 Pics     */
@@ -263,6 +266,7 @@ img {
 
 #unessay, #almost, #round {
 	width: 100%;
+	border: 3px solid #777777;
 }
 
 
