@@ -16,12 +16,22 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();   
+      });
+    </script>
+
   </head>
   <body>
     <div class="home">
@@ -53,15 +63,15 @@
             <div class="images">
               <div class="row">
                <div class="col-sm-4">
-                <img src="img/mag6.png" id="mag">
+                <a href="#" data-toggle="popover" title="Design Research" data-placement="top" data-content="I love people and their stories.  Design research uses these stories to shape the narrative of a product or service."><img src="img/mag6.png" id="mag"></a>
                 <h3>Design Research<h3>
               </div>
               <div class="col-sm-4">
-                <img src="img/fire6.png" id="fire">
+                <a href="#" data-toggle="popover" title="Employing Empathy" data-placement="top" data-content="Empathy for users and their experiences is the key tool of a design researcher."><img src="img/fire6.png" id="fire"></a>
                 <h3>Employing Empathy</h3>
               </div>
               <div class="col-sm-4">
-                <img src="img/comp6.png" id="comp">
+                <a href="#" data-toggle="popover" title="Data Scaffolded" data-placement="top" data-content="It's important that quanitative data is used effectively in tandem with design research."><img src="img/comp6.png" id="comp"></a>
                 <h3>Data Scaffolded</h3>
               </div>             
             </div>
