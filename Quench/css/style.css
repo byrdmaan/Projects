@@ -67,6 +67,10 @@ img {
 	border-top: 3px solid #FFFFFF;
 }
 
+.menu {
+	display: none;
+}
+
 
 
 
@@ -347,6 +351,7 @@ img {
 		width:100%;
 		height: 60px;
 		z-index: 10;
+		display: block;
 	}
 
 
@@ -392,17 +397,18 @@ img {
 	}
 
 	#senCol, #caseCol, #aboutCol {
-		padding-top: 50px;
+		padding-top: 70px;
 	}
 
-	#caseCol {
-
+	#cs22, #cs24, #cs12, #cs14 {
+		width: 100%;
+		display: block;
 	}
 
-	#aboutCol {
-
+	#cs11 {
+		float: middle;
+		width: 100%;
 	}
-
 
 
 
