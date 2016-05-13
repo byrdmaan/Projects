@@ -322,3 +322,90 @@ img {
 }
 
 
+@media only screen and (max-width: 750px) {
+
+	#nameCol {
+		display: none;
+	}
+
+
+	/*     Stuff for Dropdowns   */
+
+	#submenu {
+		float:left;
+		background-color:#333333;
+		padding:15px;
+		font-size:20px;
+		z-index: 10;
+	}
+
+	.menu {
+		font-family: 'Helvetica';
+		font-size: 30px;
+		background-color: #999999;
+		position: fixed;
+		width:100%;
+		height: 60px;
+		z-index: 10;
+	}
+
+
+	.myDropdown {
+	    position: absolute;
+	    display: inline-block;
+	    margin:0px;
+	}
+
+	.myDropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #333333;
+	    z-index: 10;
+	    top: inherit;
+	    top:50px;
+	    font-size: 16px;
+	    width: 175px;
+	}
+
+	.myDropdown:hover .myDropdown-content {
+	    display: block;
+	    font-size: 20px;
+	    line-height: 150%;
+	}
+	
+
+	#menuLink {
+		text-decoration: none;
+		color: #FFFFFF;
+		padding: 15px;
+	}
+
+	#menuLink:hover {
+		background-color: #555555;
+	}
+
+	#menubar {
+		height: 20px;
+		background: none;
+		width: auto;
+		padding-top: 5px;
+	}
+
+	#senCol, #caseCol, #aboutCol {
+		padding-top: 50px;
+	}
+
+	#caseCol {
+
+	}
+
+	#aboutCol {
+
+	}
+
+
+
+
+	}
+
+
