@@ -52,24 +52,33 @@ img {
 #nameCol h1 {
 	line-height: 130%;
 	padding-left: 15px;
+	padding-top: 30px;
+	text-decoration: bold;
+
 }
 
-#nameCol h3 {
+#nameCol h4 {
 	padding-left: 0px;
+	padding-top: 10px;
 }
 
-#nameCol h1 b {
-	text-decoration: none;
+#nameCol .j {
+	text-decoration: bold;
 	color: #CCCCCC;
 }
 
 #nameCol hr {
-	border-top: 3px solid #FFFFFF;
+	border-top: 1px solid #cccccc;
+	width: 80%;
+	padding-left: 15px;
 }
 
 .menu {
 	display: none;
 }
+
+
+
 
 
 
@@ -91,14 +100,17 @@ img {
 }
 
 #senCol hr {
-	border-top: 3px solid #333333;
-	width: 90%;
+	border-top: 1px solid #333333;
+	width: 93%;
+	margin-left: 30px;
 }
 
 .images {
 	color:#777777;
 	text-align: center;
 }
+
+
 
 
 
@@ -121,7 +133,7 @@ img {
 }
 
 #caseCol hr {
-	border-top: 3px solid #999999;
+	border-top: 1px solid #999999;
 }
 
 
@@ -157,7 +169,7 @@ img {
 }
 
 #aboutCol hr {
-	border-top: 3px solid #999999;
+	border-top: 1px solid #999999;
 }
 
 
@@ -266,7 +278,7 @@ img {
 }
 
 #cs22, #cs24 {
-	width: 40%;
+	width: 45%;
 	padding: 30px;
 	display: inline-block;
 }
