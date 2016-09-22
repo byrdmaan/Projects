@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Prime Vibe</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Raleway:400,400i,500,500i" rel="stylesheet">
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- My Scripts -->
+    
+
+  </head>
+  <body>
+    <audio id="rec_song" src="assets/BG.mp3" loop="loop"></audio>
+    <h5>Eats&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;<a href="#">About</a></h5>
+
+    <div class="container" id="recipe">
+        <!--<h1 class="rec_name">Bison Meatloaf</h1>-->
+        <img src="img/teton2_v1.jpg" class="rec_photo"></img>
+        <p id="pic_copy">Teton National Park</p>
+      </div>
+      <div class="container" id="recipe_bottom">
+        <h1>Bison Meatloaf</h1>
+        <div class="row">
+          <h4>Ingredients</h4>
+          <div class="col-md-6" id="ing">          
+              <div id="ing1">
+                1 cup panko bread crumbs<br>
+                1.5 pounds ground bison<br>
+                1 cup  2% milk<br>
+                1 egg<br>
+              </div>
+          </div>
+          <div class="col-md-6" id="ing">          
+              <div id="ing2">
+                3 tablespoons brown sugar<br>
+                0.5 cup BBQ sauce<br>
+                0.25 cup mustard<br>
+                s + p to taste<br>
+              </div>
+          </div>
+          
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-3" id="rec_poem">
+              <q>Winter, like a set opinion,<br>
+              is routed. What gets it out?<br>
+              The imposition of some external season<br>
+              or some internal doubt?<br>
+              I see the yellow maculations spread<br>
+              across bleak hills of what I said<br>
+              I’d always think; a stippling of white<br>
+              upon the grey; a pink the shade<br>
+              of what I said I’d never say.</q><br>
+              <b>Kay Ryan</b>
+          </div>
+          <div class="col-md-9" id="rec_steps">
+            <ol type="1">
+              <img src="img/ml_p.jpg" id="callout">
+              <li>Preheat oven to 350 degrees F.</li><br>
+
+              <li>In a bowl, combine the bison, egg, onion, milk and panko. Season with s + p to taste and place in a lightly greased 5x9 inch pan</li><br>
+
+              <li>In a separate bowl, combine the brown sugar, mustard and BBQ. Mix well and pour over the loaf.</li><br>
+
+              <li>Bake at 350 degrees F for 1 hour.</li><br>
+
+              <li>Serve immediately.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer">
+          Designed by Daniel Peck
+        </div>
+
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("#rec_song").get(0).play();
+        $("#rec_song").prop("volume", 0.1);
+      });
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+
+
+  </body>
+</html>

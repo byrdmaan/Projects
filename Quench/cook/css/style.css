@@ -1,0 +1,103 @@
+body {
+
+}
+
+h5 {
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Cabin Sketch';
+}
+
+.rec_photo {
+	position: relative;
+	width: 100%;
+	border-width: 3px;
+}
+
+.rec_name {
+	position: relative;
+	font-family: 'Cabin Sketch';
+}
+
+#rec_poem {
+	font-style: italic;
+	padding: 30px;
+	border: 1px solid black;
+	overflow: hidden;
+	font-family: 'Raleway';
+	margin-bottom: 50px;
+}
+
+#rec_steps {
+	padding-bottom: 50px;
+	font-family: 'Raleway';
+}
+
+#recipe {
+	text-align: center;
+	padding: 30px;
+}
+
+#recipe #pic_copy {
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Cabin Sketch';
+
+}
+
+#recipe_bottom {
+	font-family: 'Cabin Sketch';
+}
+
+#recipe_bottom h4, h3, h1, h2{
+	text-align: center;
+}
+
+#recipe p {
+	padding:0px 10% 0px;
+	text-align: justify;
+}
+
+#real_recipe li{
+	text-align: left;
+	padding-left: 300px;
+
+}
+
+#ing1 {
+	text-align: right;
+}
+
+#ing2 {
+	text-align: left;
+}
+
+#callout {
+	float:right;
+	width: 40%;
+	padding: 10px;
+}
+
+.footer {
+	padding-bottom: 30px;
+	text-align: center;
+	font-family: 'Cabin Sketch';
+}
+
+#landing_cont{
+	text-align: center;
+	width: 60%;
+	display: block;
+	left:40%;
+}
+
+#landing_title{
+	text-align: center;
+	font-family: 'Cabin Sketch';
+	font-size: 72px;
+	padding-top: 50px;
+}
+
+#tab_cont {
+	padding: 30px;
+}

@@ -1,0 +1,52 @@
+body {
+	font-family: "OSR";
+	background-image: url("../img/nudered.png");
+}
+
+html {
+	
+}
+
+img {
+
+}
+
+@font-face {
+    font-family: OSR;
+    src: url(../lib/OstrichSansRounded-Medium.otf);
+}
+
+#banana {
+	width: 350px;
+	height: auto;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	background: #FFFFFF;
+}
+
+.myBox {
+	text-align: center;
+}
+
+#banner {
+	font-size: 100px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 50px;
+}
+
+#button {
+	margin-top: 50px;
+	border: 5px solid #FFFFFF;
+	border-radius: 12px;
+	color: #fc2d33;
+	padding:20px;
+	border-style: solid;
+	width: auto;
+	display:inline-block;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	
+
+}

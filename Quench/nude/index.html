@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>July 14th</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- My Scripts -->
+    <script src="js/changePic.js"></script>
+
+  </head>
+  <body>
+    
+
+
+    <h1 id="banner">NOODZ</h1>
+    <div class="myBox">
+      <img src="img/peel.jpg" name="banana" id="banana" onmouseover="PlaySound('Kanye')" 
+    onmouseout="StopSound('Kanye')">
+      <h3 id="button">CLICK 4 MORE NOODZ</h3>
+    </div>
+
+    <audio src="lib/rumba.mp3" id="Kanye">
+
+    
+
+
+
+  <script>
+
+  var covers = ['img/peel.jpg', 'img/bookcover.png', 'img/avo1v2.png'];
+  var noodz = ['img/banana.jpg', 'img/booknude.png', 'img/avo2v2.png'];
+
+
+  $('#banana').hover(function() {
+
+      if ( $(this).attr('src') == covers[0] )
+      {
+        $(this).attr('src', noodz[0]);
+      }
+      if ( $(this).attr('src') == covers[1] )
+      {
+        $(this).attr('src', noodz[1]);
+      }
+      if ( $(this).attr('src') == covers[2] )
+      {
+        $(this).attr('src', noodz[2]);
+      }
+    }, function() {
+      if ( $(this).attr('src') == noodz[0] )
+      {
+        $(this).attr('src', covers[0]);
+      }
+      if ( $(this).attr('src') == noodz[1] )
+      {
+        $(this).attr('src', covers[1]);
+      }
+      if ( $(this).attr('src') == noodz[2] )
+      {
+        $(this).attr('src', covers[2]);
+      }
+    });
+
+    function PlaySound(soundobj) {
+        var thissound=document.getElementById(soundobj);
+        thissound.play();
+        $("body").css("background-image", "url(img/background.png)");
+    }
+
+    function StopSound(soundobj) {
+        var thissound=document.getElementById(soundobj);
+        thissound.pause();
+        $("body").css("background-image", "url(img/nudered.png)");
+    }
+  </script>
+
+
+  <script>
+
+  var starters = ["img/peel.jpg", "img/bookcover.png", "img/avo1v2.png"];
+  var i = 0;
+  document.getElementById("button").addEventListener("click", myButtonFunction);
+
+  function myButtonFunction() {
+    if (i<2)
+    {
+      i++;
+      $('#banana').prop('src', starters[i]);
+      
+    }
+    else
+    {
+      i=0;
+      $('#banana').prop('src', starters[i]);
+      
+    }
+  }
+  </script>
+
+
+
+
+
+
+
+  <script>
+  var skills = ["I am pretty good at coding", "Nothing warms a heart on the waves like a sea shanty", "My favorite book is Moby Dick", "I love a tasteful meat & cheese spread", "Japanese is a great language"];
+  var i = 4;
+  document.getElementById("name").addEventListener("click", myFunction);
+
+  function myFunction() {
+    if (i<4) {
+    document.getElementById("demo").innerHTML = skills[i+1];
+    i = i + 1;
+    }
+    else
+    {
+      document.getElementById("demo").innerHTML = skills[0];
+      i = 0;
+    }
+  }
+</script>
+  </body>
+</html>
