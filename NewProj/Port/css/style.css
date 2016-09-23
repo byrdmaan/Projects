@@ -205,6 +205,9 @@ a {
 	text-decoration: none;
 }
 
+
+
+
 #forMobile {
 	padding: 40px;
 }
@@ -216,6 +219,13 @@ a {
 #toggle2 {
 	display: none;
 }
+
+
+
+
+
+
+
 
 
 /*     Small Menu     */
@@ -351,6 +361,14 @@ h1 {
 }
 
 .myBlock {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.myBlock2 {
 	width: 80%;
 	text-align: center;
 	display: block;
@@ -524,6 +542,20 @@ h1 {
 	width: auto;
 	height: 100% ;
 	left:50%;
+}
+
+.myBlock2 {
+	display: none;
+	float: left;
+	width: 600px;
+	height: 100%;
+	left: 50%;
+	background-color: #555555;
+}
+
+.myBlock2 h1 {
+	top: 10%;
+	padding-top: 0px;
 }
 
 .myCont {

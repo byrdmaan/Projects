@@ -15,6 +15,7 @@
 	<link rel="stylesheet" src="js/jquery.mobile-1.4.5.min.css" type="text/css">
 	<script src="js/jquery.mobile-1.4.5.min.js"></script>
 	<script src="js/jquery-2.2.3.js"></script>
+
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	
@@ -72,7 +73,7 @@
         	
      		if ($(window).width() > 1000)
      		{
-	     		$("#show").slideUp("slow", "swing");
+	     		$("#show").fadeOut(700);
 	    	}
      	}); 
 	});
@@ -82,11 +83,12 @@
      	{
      		if ($(window).width() > 1000)
      		{
-	        	$("#show2").slideUp("slow", "swing");
+	        	$("#show2").fadeOut(700);
 		    }
      	}); 
 	});
 	</script>
+
 
 
 
@@ -166,7 +168,11 @@
 	 			<h3 id="sm6">Evaluation of Deployment</h3>
 	 		</div>
  		</div>
- 		<a href="img/crime.pdf" target="_blank"><img class="myBlock" id="show2" src=""></a>
+ 		<!-- <a href="img/crime.pdf" target="_blank"><img class="myBlock" id="show2" src=""></a>-->
+ 		<div class="myBlock2" id="show2">
+ 			<h1>Crime in Dallas</h1>
+			 
+ 		</div>
  		<h1 id="toggle2"><a id="link">Data Projects</a></h1>
  		<div class="myCont" id="mine2">
  			<!-- <h3 class="skillhead">Skills & Strengths</h3> -->
@@ -228,7 +234,8 @@
 <script>
 document.getElementById("box1").addEventListener("click", changePic1);
 function changePic1() {
-	$("#show").slideDown("slow", "swing");
+	$("#show").fadeIn(700);
+	//$("#show").animate({left: '0px'});
 	var image = document.getElementById('show');
 	var a = document.getElementById('showa');
 	image.src = "img/portfolio_pizza2.png";
@@ -240,10 +247,10 @@ function changePic1() {
 
 document.getElementById("box2").addEventListener("click", changePic2);
 function changePic2() {
-	$("#show").slideDown("slow", "swing");
+	$("#show").fadeIn(700);
 	var image = document.getElementById('show');
 	var a = document.getElementById('showa');
-	image.src = "img/Almost2.jpg";
+	image.src = "img/Almost4.jpg";
 	a.href = "img/Almost Caught.pdf";
 	$("#box1").css("background-color","#BBC2BE");
 	$("#box2").css("background-color","#333333");
@@ -252,7 +259,7 @@ function changePic2() {
 
 document.getElementById("box3").addEventListener("click", changePic3);
 function changePic3() {
-	$("#show").slideDown("slow", "swing");
+	$("#show").fadeIn(700);
 	var image = document.getElementById('show');
 	image.src = "img/PlaceHolder.jpg";
 	$("#box1").css("background-color","#BBC2BE");
@@ -262,7 +269,7 @@ function changePic3() {
 
 document.getElementById("box4").addEventListener("click", changePic4);
 function changePic4() {
-	$("#show2").slideDown("slow", "swing");
+	$("#show2").fadeIn(700);
  	var image = document.getElementById('show2');
 	image.src = "img/crime.png";
 	$("#box4").css("background-color","#333333");
@@ -272,7 +279,7 @@ function changePic4() {
 
 document.getElementById("box5").addEventListener("click", changePic5);
 function changePic5() {
-	$("#show2").slideDown("slow", "swing");
+	$("#show2").fadeIn(700);
 	var image = document.getElementById('show2');
 	image.src = "img/PlaceHolder.jpg";
 	$("#box4").css("background-color","#BBC2BE");
@@ -282,7 +289,7 @@ function changePic5() {
 
 document.getElementById("box6").addEventListener("click", changePic6);
 function changePic6() {
-	$("#show2").slideDown("slow", "swing");
+	$("#show2").fadeIn(700);
 	var image = document.getElementById('show2');
 	image.src = "img/PlaceHolder.jpg";
 	$("#box4").css("background-color","#BBC2BE");
