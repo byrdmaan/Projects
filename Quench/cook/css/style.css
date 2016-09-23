@@ -19,15 +19,6 @@ h5 {
 	font-family: 'Cabin Sketch';
 }
 
-#rec_poem {
-	font-style: italic;
-	padding: 30px;
-	overflow: hidden;
-	margin-bottom: 50px;
-	border: 1px solid black;
-	background: white;
-
-}
 
 #rec_steps {
 	padding-bottom: 50px;
@@ -74,15 +65,25 @@ h5 {
 	text-align: left;
 }
 
+
+
+
+
+
+
+
+
+
+#side_col {
+	font-family: 'Raleway';
+}
+
 #callout {
 	width: 100%;
 	border: 1px solid black;
 	margin-bottom: 30px;
 }
 
-#side_col {
-	font-family: 'Raleway';
-}
 
 #vibe_buttons {
 	border: 1px solid black;
@@ -97,6 +98,18 @@ h5 {
 	padding: 10px;
 	margin: 10px;
 }
+
+#rec_poem {
+	font-style: italic;
+	padding: 30px;
+	overflow: hidden;
+	margin-bottom: 50px;
+	border: 1px solid black;
+	background: white;
+
+}
+
+
 
 
 
