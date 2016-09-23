@@ -11,7 +11,7 @@ h5 {
 .rec_photo {
 	position: relative;
 	width: 100%;
-	border-width: 3px;
+	border: 1px solid black;
 }
 
 .rec_name {
@@ -22,15 +22,16 @@ h5 {
 #rec_poem {
 	font-style: italic;
 	padding: 30px;
-	border: 1px solid black;
 	overflow: hidden;
-	font-family: 'Raleway';
 	margin-bottom: 50px;
+	border: 1px solid black;
+
 }
 
 #rec_steps {
 	padding-bottom: 50px;
 	font-family: 'Raleway';
+	font-size: 20px;
 }
 
 #recipe {
@@ -73,9 +74,9 @@ h5 {
 }
 
 #callout {
-	float:right;
-	width: 40%;
-	padding: 10px;
+	width: 100%;
+	border: 1px solid black;
+	margin-bottom: 30px;
 }
 
 .footer {
@@ -83,6 +84,26 @@ h5 {
 	text-align: center;
 	font-family: 'Cabin Sketch';
 }
+
+#side_col {
+	font-family: 'Raleway';
+}
+
+#vibe_buttons {
+	border: 1px solid black;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#vibe_buttons button {
+	padding: 10px;
+	margin: 10px;
+}
+
+
+
 
 #landing_cont{
 	text-align: center;

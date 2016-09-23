@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Prime Vibe</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Raleway:400,400i,500,500i" rel="stylesheet">
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <!-- My Scripts -->
+    
+
+  </head>
+  <body>
+    <audio id="rec_song" src="assets/CM.m4a" loop="loop"></audio>
+    <h5>Eats&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;<a href="#">About</a></h5>
+
+    <div class="container" id="recipe">
+        <!--<h1 class="rec_name">Bison Meatloaf</h1>-->
+        <img src="img/texas_v1.jpg" class="rec_photo"></img>
+        <p id="pic_copy">Austin, TX</p>
+      </div>
+      <div class="container" id="recipe_bottom">
+        <h1>Slow-Cooked Barbacoa</h1>
+        <div class="row">
+          <h4>Ingredients</h4>
+          <div class="col-md-6" id="ing">          
+              <div id="ing1">
+                5 tablespoons apple cider vinegar<br>
+                5 chipotle chiles in adobo<br>
+                0.5 teaspoons cinnamon<br>
+                4 pounds Chuck Roast<br>
+                4 anaheim chiles<br>
+                7 garlic cloves
+              </div>
+          </div>
+          <div class="col-md-6" id="ing">          
+              <div id="ing2">
+                3 tablespoons brown sugar<br>             
+                4 teaspoons dried oregano<br>
+                1 tablespoon ground cumin<br>
+                1 sweet onion<br>
+                3 bay leaves<br>
+                s + p to taste
+              </div>
+          </div>
+          
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-4" id="side_col">
+            <div id="vibe_buttons">
+              <h4>Crucify Your Mind</h4><h6>Rodriguez</h6>
+              <button onclick="playVibe()" type="button"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+              <button onclick="pauseVibe()" type="button"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
+            </div>
+            <img src="img/barb_p.jpg" id="callout">
+            <div id="rec_poem">
+              <q>Yo soy Joaquín,<br>
+              perdido en un mundo de confusión:<br>
+              I am Joaquín, lost in a world of confusion,<br>
+              caught up in the whirl of a gringo society,<br>
+              confused by the rules, scorned by attitudes,<br>
+              suppressed by manipulation, and destroyed by modern society.<br>
+              My fathers have lost the economic battle<br>
+              and won the struggle of cultural survival.</q><br>
+              <b>Rodolfo "Corky" Gonzales</b>
+            </div>
+          </div>
+          <div class="col-md-8" id="rec_steps">
+            <ol type="1">
+              
+              <li>Soak chiles in boiling water until tender. Carefully remove the stems and seeds. Reserve the chile water.</li><br>
+
+              <li>Place the chiles, chipotle chiles, onion, garlic, vinegar, and brown sugar in the blender. Pour the chile water over the top. Puree until smooth.</li><br>
+
+              <li>Place the chuck roast in a large slow cooker. Add the bay leaves, cumin, oregano, and cinnamon. Pour the chile puree over the top. Cover the slow cooker and turn on low for 8-12 hours.</li><br>
+
+              <li>Shred beef with fork into the chile sauce. Cover and keep warm until ready to eat.</li><br>
+
+              <li>Garnish with diced onions and cilantro and serve with a lime wedge.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer">
+          Designed by Daniel Peck
+        </div>
+
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vibes.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+
+
+
+  </body>
+</html>

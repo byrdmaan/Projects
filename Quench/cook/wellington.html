@@ -25,7 +25,7 @@
 
   </head>
   <body>
-    <audio id="rec_song" src="assets/RL.mp3" loop="loop"></audio>
+    <audio id="rec_song" src="assets/DB.mp3" loop="loop"></audio>
     <h5>Eats&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;<a href="#">About</a></h5>
     <div class="container" id="recipe">
         <!--<h1 class="rec_name">Beef Wellington</h1>-->
@@ -66,42 +66,42 @@
         </div>
         <br>
         <div class="row">
-          <div class="col-md-3" id="rec_poem">
+          <div class="col-md-3" id="side_col">
+            <div id="vibe_buttons">
+              <h4>Death of a Bachelor</h4><h6>Panic! at the Disco</h6>
+              <button onclick="playVibe()" type="button"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+              <button onclick="pauseVibe()" type="button"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button>
+            </div>
+            <img src="img/bw_p.jpg" id="callout">
+            <div id="rec_poem">
               <q>is New York City<br>
               the heart of America?<br>
               it certainly is</q><br>
               <b>Haiku by Robert Heemstra</b>
+            </div>
           </div>
           <div class="col-md-9" id="rec_steps">
             <ol type="1">
-              <img src="img/bw_p.jpg" id="callout">
-              <li>Heat a stainless steel pan or cast iron skillet over medium-high heat. Add the vegetable oil and heat until just starting to smoke.</li><br>
 
-              <li>Rub the meat generously with salt and pepper.</li><br>
+              <li>Sear the two filets very briefly on each side on stainless steal pan over high with vegetable oil.</li><br>
 
-              <li>Once the pan is very hot, sear the two filets very briefly on each side. You don’t want to cook the interior of the meat at this point, so it shouldn’t be more than a minute or two per side. Remove the filets from the pan and place on a plate in the freezer while you make the filling.</li><br>
-
-              <li>Let the pan cool slightly and turn the heat down to medium. Add the mushrooms, onion and garlic to the pan, and sprinkle on salt and pepper. Cook until the mushrooms release all their water and the onion is translucent.</li><br>
-
-              <li>Add the sherry and thyme. Cook until the sherry evaporates. Taste for salt and pepper, and season as necessary.</li><br>
-
-              <li>Remove from the heat and refrigerate until cold, then stir in the chopped parsley.</li><br>
+              <li>Turn the heat down to medium. Add the mushrooms, onion, rosemary, and garlic to the pan, sprinkle with s + p. Cook until mushrooms and onion are slightly crisped.</li><br>
 
               <li>Roll out one puff pastry piece and cut in half, so you have two rectangular strips of dough.</li><br>
 
-              <li>Remove the steaks from the freezer and brush with the Dijon mustard on both sides.</li><br>
+              <li>Brush steaks with the Dijon mustard on both sides.</li><br>
 
-              <li>Put a quarter of the mushroom mixture in the middle of one piece of the puff pastry. Top with one steak, then add a quarter more of the mushrooms. Repeat with the other steak, puff pastry piece and mushrooms.</li><br>
+              <li>scoop small amount of the mushroom mixture to the middle of one piece of the puff pastry. Place 1 steak, then add another scoop of the mixture. Repeat for other steak.</li><br>
 
-              <li>Fold the long sides of the pastry over the steak, tucking in and tightly sealing all the edges so the juice doesn’t escape. Wrapping it all in plastic wrap can help!</li><br>
+              <li>Fold edge of the pastry over the steak, tucking in and tightly sealing all the edges.</li><br>
 
-              <li>Preheat the oven to 425 degrees Fahrenheit and line a sheet pan. While the oven preheats, put the wrapped beef in the freezer.</li><br>
+              <li>Preheat the oven to 425 degrees F. While preheating, put the wrapped beef in the freezer.</li><br>
 
-              <li>Once the oven is hot, remove the beef from the freezer and put on the lined sheet pan. Coat with the egg wash.</li><br>
+              <li>Spray pan with oil. Place steaks on pan and wash with egg.</li><br>
 
-              <li>Bake for 25 minutes, until a thermometer inserted into the middle of the steak reads 135 to 140 degrees Fahrenheit (medium-rare) and the pastry is a deep golden brown.</li><br>
+              <li>Bake for 25 minutes, until pastry is golden brown.</li><br>
 
-              <li>Cut in half so you can see the intersection of steak, pastry and mushrooms, and serve.</li>
+              <li>Cut in half to serve.</li>
             </ol>
           </div>
         </div>
@@ -118,12 +118,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $("#rec_song").get(0).play();
-        $("#rec_song").prop("volume", 0.1);
-      });
-    </script>
+    <script src="js/vibes.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
 
